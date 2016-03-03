@@ -1,0 +1,16 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="1" MtlFlags="524416" Shader="Illum" GenMask="48400000" StringGenMask="%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.4793202,0.4793202,0.4793202" Specular="0,0,0" Opacity="1" Shininess="146" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/trail1_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/trail1_ddna.tif"/>
+    <Texture Map="Heightmap" File="textures/trail1_displ.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" PomDisplacement="0.0019" SSSIndex="0" SelfShadowStrength="1.216" HeightBias="0" IndirectColor="0.27049783,0.27049783,0.27049783"/>
+  </Material>
+  <Material Name="2" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
