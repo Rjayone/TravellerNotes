@@ -26,3 +26,13 @@
 *.exe
 *.out
 *.app
+
+# 3D source
+*.max
+*.tiff
+*.psd
+*.fbx
+
+# Backup files
+*.bak
+*.bak2
