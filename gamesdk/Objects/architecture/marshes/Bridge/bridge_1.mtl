@@ -1,0 +1,19 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="1" MtlFlags="524416" Shader="Illum" GenMask="42400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%OFFSET_BUMP_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/marshes/bridge/textures/bridge1_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/architecture/marshes/bridge/textures/bridge1_ddn.dds"/>
+    <Texture Map="Heightmap" File="objects/architecture/marshes/bridge/textures/bridge1_displ.dds"/>
+    <Texture Map="Custom" File="textures/moss1_diff.dds"/>
+    <Texture Map="[1] Custom" File="textures/moss1_ddn.dds"/>
+    <Texture Map="Opacity" File="textures/moss1_opac.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.80000001" EmittanceMapGamma="1" BlendLayer2Tiling="6.8499999" SSSIndex="0" BlendMaskTiling="1.55" SelfShadowStrength="0" ObmDisplacement="0.001" HeightBias="0" BlendFactor="16" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="2" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="0.1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
