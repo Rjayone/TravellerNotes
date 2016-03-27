@@ -4,18 +4,18 @@
    <Textures>
     <Texture Map="Diffuse" File="objects/architecture/marshes/ruin/textures/pillar1_diff.dds"/>
     <Texture Map="Bumpmap" File="objects/architecture/marshes/ruin/textures/pillar1_ddn.dds"/>
-    <Texture Map="Custom" File="textures/moss1_diff.tif">
+    <Texture Map="Custom" File="objects/architecture/marshes/textures/moss1_diff.dds">
      <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
     </Texture>
-    <Texture Map="[1] Custom" File="textures/moss1_ddna.tif"/>
-    <Texture Map="Opacity" File="textures/moss1_opac.dds"/>
+    <Texture Map="[1] Custom" File="objects/architecture/marshes/textures/moss1_ddna.dds"/>
+    <Texture Map="Opacity" File="objects/architecture/marshes/textures/moss1_opac.dds"/>
    </Textures>
-   <PublicParams BlendFalloff="0.89999998" EmittanceMapGamma="1" BlendLayer2Tiling="4.6799998" SSSIndex="0" BlendMaskTiling="0.69999999" BlendFactor="12.26" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+   <PublicParams BlendFalloff="0.5" EmittanceMapGamma="1" BlendLayer2Tiling="4.6799998" SSSIndex="0" BlendMaskTiling="1.01" BlendFactor="16" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
   </Material>
   <Material Name="Proxy" MtlFlags="524418" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.10461649,0.10461649,0.10461649" Specular="0,0,0" Opacity="1" Shininess="10" AlphaTest="0.40000001" vertModifType="0" LayerAct="1">
    <Textures>
-    <Texture Map="Diffuse" File="textures/leaf1_diff.tif"/>
-    <Texture Map="Bumpmap" File="textures/leaf1_ddn.dds"/>
+    <Texture Map="Diffuse" File="objects/architecture/marshes/textures/leaf1_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/architecture/marshes/textures/leaf1_ddn.dds"/>
    </Textures>
    <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BackDiffuseMultiplier="0.62300003" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
   </Material>
