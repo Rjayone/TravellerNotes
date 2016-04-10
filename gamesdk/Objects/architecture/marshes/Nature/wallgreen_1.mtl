@@ -1,0 +1,25 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="leaf1" MtlFlags="524418" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.13843164,0.13843164,0.13843164" Specular="0,0,0" Opacity="1" AlphaTest="0.27000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/marshes/nature/textures/wallgreen_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/architecture/marshes/nature/textures/wallgreen_ddn.dds"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.99110222,0.99110222,0.26225069" CapOpacityFalloff="1" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="leaf2" MtlFlags="524418" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.13843164,0.13843164,0.13843164" Specular="0,0,0" Opacity="1" AlphaTest="0.25999999" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/marshes/textures/leaf1_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/architecture/marshes/textures/leaf1_ddn.dds"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.52099562,0.52099562,0" CapOpacityFalloff="1" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod1" MtlFlags="524416" Shader="Vegetation" GenMask="2400800000" StringGenMask="%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.13843164,0.13843164,0.13843164" Specular="0,0,0" Opacity="1" AlphaTest="0.28999999" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/marshes/nature/textures/wallgreen_1_lod1_alpha_diff.dds"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.99110222,0.99110222,0.26225069" CapOpacityFalloff="1" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
