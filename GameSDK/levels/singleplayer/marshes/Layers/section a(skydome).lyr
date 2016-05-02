@@ -1,0 +1,26 @@
+<ObjectLayer>
+ <Layer Name="section A(skydome)" GUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="0" IsDefaultColor="0" Color="10185524">
+  <LayerObjects>
+   <Object Type="GeomEntity" Layer="section A(skydome)" LayerGUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Id="{0CF0048E-92A8-4856-882F-2EFE70FB66BF}" Name="forest_skydome3" Pos="573.13959,254.19141,-1282.35" FloorNumber="-1" Rotate="0.24124406,-2.6810187e-007,3.125071e-007,0.97046447" Scale="5.0811949,5.0811949,5.081193" ColorRGB="65535" Material="objects/sky/forest_sky_dome" MatLayersMask="0" Geometry="objects/sky/forest_skydome.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="section A(skydome)" LayerGUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Id="{F254A79F-CDA5-4080-BEC3-E71E1E0AF979}" Name="EnvironmentProbe1" Pos="551,214,42.510239" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="5000" BoxSizeY="5000" BoxSizeZ="5000" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/marshes/environmentprobe1_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="section A(skydome)" LayerGUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Id="{412F7CD8-5381-469A-8D45-A171D6A167FF}" Name="forest_skydome4" Pos="573.13959,254.19141,-1592.25" FloorNumber="-1" Rotate="0.73570627,-0.076614566,-0.17309363,0.65031153" Scale="4.1399999,4.1399999,4.1399999" ColorRGB="65535" Material="objects/sky/forest_sky_dome" MatLayersMask="0" Geometry="objects/sky/forest_skydome.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

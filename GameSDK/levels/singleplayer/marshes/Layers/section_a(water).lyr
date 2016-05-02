@@ -1,0 +1,16 @@
+<ObjectLayer>
+ <Layer Name="section_A(water)" GUID="{0912923A-70C9-48E6-998D-8FCA850311CE}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="25040">
+  <LayerObjects>
+   <Object VolumeDepth="10" StreamSpeed="0" FogDensity="0.5" FogColor="0.00651209,0.0152085,0.00699541" FogColorMultiplier="0.1" FogColorAffectedBySun="1" FogShadowing="0.5" UScale="10" VScale="10" CapFogAtVolumeDepth="0" Caustics="1" CausticIntensity="1" CausticTiling="1" CausticHeight="0.5" Type="River" Layer="section_A(water)" LayerGUID="{0912923A-70C9-48E6-998D-8FCA850311CE}" Id="{FAE2DBA4-FA8E-40FD-9576-D4DF3F12C612}" Name="River4" Pos="553.65515,353.3356,21.375786" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16711680" Material="materials/water/watervolumes/water_forest_a" Width="100" BorderWidth="6" EraseVegWidth="3" EraseVegWidthVar="0" StepSize="4" ViewDistRatio="100" TileLength="50">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="3.9178147,-10.515943,-2.0438194" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="8.6035156,-32.740784,-5.0024071" Back="7.9666028,-21.383434,-4.1559639" Forw="9.2497196,-44.263813,-5.8611979" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="3.7640991,-67.120972,-5.0024071" Back="5.0705037,-55.621902,-5.0024071" Forw="2.4295664,-78.867622,-5.0024071" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="0.68347168,-102.45358,-5.0024071" Back="-0.28472418,-90.677925,-4.6008196" Forw="1.5764129,-113.31396,-5.3727803" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="9.2577515,-133.93739,-7.2810593" Back="4.5162649,-124.11901,-7.2810588" Forw="18.983505,-154.07689,-7.2810602" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="43.678467,-191.48502,-5.0024109" Back="31.372868,-172.84439,-6.1378713" Forw="43.678467,-191.48502,-5.0024109" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

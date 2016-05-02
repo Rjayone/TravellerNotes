@@ -1,0 +1,48 @@
+<ObjectLayer>
+ <Layer Name="triggers" GUID="{099345AC-AC96-4887-93A4-1DE9CBB9B9F2}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Entity" Layer="triggers" LayerGUID="{099345AC-AC96-4887-93A4-1DE9CBB9B9F2}" Id="{0CDFD5B6-EDA1-4157-AE6C-DD77EEC37A65}" Name="ProximityTrigger1" Pos="554.80878,176.7283,41.432671" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="5" DimY="5" DimZ="5" bEnabled="1" EnterDelay="0" ExitDelay="0" esFactionFilter="" bInVehicleOnly="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" bRemoveOnTrigger="0" ScriptCommand="" bTriggerOnce="0" UsableMessage="">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+    <FlowGraph Description="" Group="fog" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="3" Class="entity:ProximityTrigger" pos="-500,-250,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="6" Class="Debug:DisplayMessage" pos="0,-840,0" flags="0">
+       <Inputs entityId="0" message="111" DisplayTime="0" posX="50" posY="50" fontSize="2" clr_Color="1,1,1" centered="0"/>
+      </Node>
+      <Node Id="13" Class="entity:FogVolume" pos="-30,-50,0" flags="0" EntityGUID="{9F7A17E7-29FB-44A5-A9F0-A782BB3F4FF1}" EntityGUID_64="44A529FB9F7A17E7">
+       <Inputs entityId="0" AO_Enabled="0" EV_Density="0.0015" EV_DensityNoiseOffset="0" EV_DensityNoiseScale="0" EV_WindInfluence="0"/>
+      </Node>
+      <Node Id="16" Class="entity:FogVolume" pos="-30,80,0" flags="0" EntityGUID="{1438C845-4781-419D-AA6C-381757C5F7D9}" EntityGUID_64="419D47811438C845">
+       <Inputs entityId="0" AO_Enabled="0" EV_Density="0" EV_DensityNoiseOffset="0" EV_DensityNoiseScale="0" EV_WindInfluence="0"/>
+      </Node>
+      <Node Id="17" Class="Logic:NOT" pos="-180,-160,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="18" Class="Logic:NOT" pos="-300,70,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="19" Class="Logic:Any" pos="-170,130,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="20" Class="Logic:Any" pos="-150,-30,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="17" nodeOut="3" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="3" portIn="in" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="3" portIn="in1" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="20" nodeOut="17" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="19" portIn="AO_Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="13" nodeOut="20" portIn="AO_Enabled" portOut="out" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

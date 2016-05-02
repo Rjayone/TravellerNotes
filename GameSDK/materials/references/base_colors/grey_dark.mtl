@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="40000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.37626216,0.37626216,0.37626216" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="128" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/generic/base_colors/grey_128_diff.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
