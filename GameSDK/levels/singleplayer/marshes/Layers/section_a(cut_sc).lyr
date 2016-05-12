@@ -1,0 +1,39 @@
+<ObjectLayer>
+ <Layer Name="section_a(cut_sc)" GUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="1994545">
+  <LayerObjects>
+   <Object Type="GeomEntity" Layer="section_a(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{474A9459-52BD-4BAF-B371-AE3D8700CF34}" Name="luk1" Pos="558.70721,140.23466,59.345814" FloorNumber="-1" Rotate="0.99756402,0,-0.069756493,0" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/wb_marsh/luk.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="section_a(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{1988A07E-03EC-4D6F-9E87-063F07423272}" Name="pillar1" Pos="550.03723,141.14961,55.669552" FloorNumber="-1" Rotate="0.99870586,-0.0061108889,-0.025453672,-0.043604419" Scale="1.6297365,1.6297365,1.6297367" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/wb_marsh/pillar.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="section_a(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{86CD818A-0157-44A8-8D92-79ECF67F4595}" Name="korri2" Pos="555.50793,141.95433,57.701283" FloorNumber="-1" Rotate="0.89493436,0,-0.44619784,0" Scale="0.75127792,0.7512778,0.75127792" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/wb_marsh/korri.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="section_a(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{78027EDE-ED77-464E-8E06-2C67E3AB1AC7}" Name="AnimObject1" Pos="552.01703,145.02135,57.671871" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.44999999,0.44999999,0.44999999" ColorRGB="65535" Material="materials/references/base_colors/orange" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AnimObject">
+    <Properties ActivatePhysicsDist="50" ActivatePhysicsThreshold="0" bCanTriggerAreas="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/props/maritime/buoy/buoy.cgf" bNoFriendlyFire="0" bPickable="0" soclasses_SmartObjectClass="" bUsable="1" UseMessage="Say">
+     <Animation bAlwaysUpdate="0" Animation="Default" bLoop="1" bPhysicalizeAfterAnimation="0" playerAnimationState="" bPlaying="1" Speed="1"/>
+     <Cinematic bOnDemandModelLoad="0" bRenderAlways="0"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bArticulated="0" bBulletCollisionEnabled="1" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="0" bRigidBody="0">
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
