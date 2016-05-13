@@ -34,6 +34,23 @@
      <Rendering bWrinkleMap="0"/>
     </Properties>
    </Object>
+   <Object Type="Shape" Layer="section_a(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{CFF080E3-3816-4745-8CFF-0EB3C9F45C44}" Name="Shape1" Pos="551.92145,144.27718,56.429684" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="5" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-1.1390991,2.6961365,-0.2904129"/>
+     <Point Pos="-2.8756104,3.2188873,-0.061279297"/>
+     <Point Pos="-5.9203491,2.7230377,-0.070865631"/>
+     <Point Pos="-6.8886108,0.53710938,0"/>
+     <Point Pos="-1.2997437,-1.8365479,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="section_a(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{3E4783F8-7FA6-409F-92DC-9F58B7B06F67}" Name="AudioAreaAmbience1" Pos="551.04669,143.63757,57.861195" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AudioAreaAmbience">
+    <Properties bEnabled="0" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" audioTriggerPlayTrigger="" audioRTPCRtpc="area_fade_distance" fRtpcDistance="5" eiSoundObstructionType="2" audioTriggerStopTrigger=""/>
+    <EntityLinks>
+     <Link TargetId="{CFF080E3-3816-4745-8CFF-0EB3C9F45C44}" Name="NewLink" Version="1"/>
+    </EntityLinks>
+   </Object>
   </LayerObjects>
  </Layer>
 </ObjectLayer>
