@@ -1,21 +1,21 @@
 <ObjectLayer>
  <Layer Name="comment_S_A" GUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Exportable="0" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="7233055">
   <LayerObjects>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{43AC6C03-D342-4853-8E9E-E943BE818956}" Name="Comment21" Pos="376.11038,510.3461,53.453758" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{43AC6C03-D342-4853-8E9E-E943BE818956}" Name="Comment21" Pos="376.11038,510.3461,53.453758" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.00518152,0.00518152,0.854993" bFixed="0" bHidden="0" fMaxDist="30" fSize="1.2" Text="Water"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{0405D80B-4473-4735-82C3-740E47AF15E6}" Name="Comment20" Pos="480.13324,562.97321,47.680618" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{0405D80B-4473-4735-82C3-740E47AF15E6}" Name="Comment20" Pos="480.13324,562.97321,47.680618" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.0481718,0.679543,0.0202886" bFixed="0" bHidden="0" fMaxDist="20" fSize="1.2" Text="Look at tourist"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5D81AF21-27BD-4D27-AA60-1A75D7ACE260}" Name="Comment2" Pos="517.99994,709,34" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5D81AF21-27BD-4D27-AA60-1A75D7ACE260}" Name="Comment2" Pos="517.99994,709,34" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0,0.102242,1" bFixed="0" bHidden="0" fMaxDist="10" fSize="2" Text="1 min"/>
    </Object>
-   <Object Type="Group" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5D599E25-6583-44E4-B987-FABB7B4B6911}" Name="parkor_2m2" Pos="458.7211,608.35919,32.298603" FloorNumber="-1" Rotate="0.60876137,0,0,-0.79335344" ColorRGB="65280" Opened="0">
+   <Object Type="Group" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5D599E25-6583-44E4-B987-FABB7B4B6911}" Name="parkor_2m2" Pos="458.7211,608.35919,32.298603" FloorNumber="-1" Rotate="0.60876137,0,0,-0.79335344" ColorRGB="65280" Flags="2" Opened="0">
     <Objects>
-     <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{4198172F-E5F1-47FF-A50B-85F0B3833343}" Name="Comment26" Parent="{5D599E25-6583-44E4-B987-FABB7B4B6911}" Pos="-0.11087036,0.66900635,1.3024368" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+     <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{4198172F-E5F1-47FF-A50B-85F0B3833343}" Name="Comment26" Parent="{5D599E25-6583-44E4-B987-FABB7B4B6911}" Pos="-0.11087036,0.66900635,1.3024368" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
       <Properties nCharsPerLine="30" clrDiffuse="0.64448,0.450786,0.254152" bFixed="0" bHidden="0" fMaxDist="20" fSize="1.2" Text="Parkour 2m"/>
      </Object>
-     <Object Type="Designer" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{CC9A5A36-5223-4843-8E97-F4745BE5DFCD}" Name="Designer338" Parent="{5D599E25-6583-44E4-B987-FABB7B4B6911}" Pos="0.11083984,-0.66900635,-1.3024406" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Material="materials/references/base_colors/brown" RndFlags="1073742088" StaticObjFlags="0" ViewDistRatio="100">
+     <Object Type="Designer" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{CC9A5A36-5223-4843-8E97-F4745BE5DFCD}" Name="Designer338" Parent="{5D599E25-6583-44E4-B987-FABB7B4B6911}" Pos="0.11083984,-0.66900635,-1.3024406" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Flags="2" Material="materials/references/base_colors/brown" RndFlags="1073742088" StaticObjFlags="0" ViewDistRatio="100">
       <Brush DesignerModeFlags="0" SubdivisionLevel="0" SubdivisionSmoothingGroup="0" TessFactor="0" MirrorPlaneNormal="0,0,0" MirrorPlaneDistance="0">
        <Polygon GUID="{16806695-06CC-49CF-B280-B0F816A44A6A}" BinaryData="BAAAAAAAAED0Z+U/AAAAINH3D0AAAAAAAAAAAAAAAIC8yui/AAAAQCT1DkAAAAAAAAAAAAAAAIC8yui/AAAAQCT1DkAAAADAdUfRPwAAAEAlSN4/AAAAgLzUD0AAAADAdUfRPwQAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAACfE4h81k+2v6KzwLTT4O8/AAAAAAAAAACEezHNRWEPwNcxrb4AAAAAANhPPwAAAIAA2E8/7GpbvpiqOr7salu+"/>
        <Polygon GUID="{EBA5C826-7597-4A67-AD7D-5E6B35D751B0}" BinaryData="BgAAAAAAAIC8yui/AAAAQCT1DkAAAAAAAAAAAAAAAED0Z+U/AAAAINH3D0AAAAAAAAAAAAAAAAA5svQ/AAAAQFqjDUAAAAAAAAAAAAAAAACOW/c/AAAAAArb/D8AAAAAAAAAAAAAAMBd1fQ/AAAAINpU+j8AAAAAAAAAAAAAAECqG+K/AAAAgHW39z8AAAAAAAAAAAYAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAABAAAAAQAAAAFAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAAAAIAAdHM/ANhPvwB0cz/XMa0+CHItP7DaTz+xUla/sNpPP9x1c78xIS0/3HVzvwDYT78="/>
@@ -114,51 +114,51 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{F5D7DB25-8AC3-4A38-9C20-7B796B687F4F}" Name="Comment15" Pos="521.75781,648.125,33.599216" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{F5D7DB25-8AC3-4A38-9C20-7B796B687F4F}" Name="Comment15" Pos="521.75781,648.125,33.599216" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.021219,0.304987,0.0116122" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Tourist"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{C7F14939-AFFC-4F38-8077-03C55D07B588}" Name="Comment16" Pos="565.53162,722.1546,34.33741" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{C7F14939-AFFC-4F38-8077-03C55D07B588}" Name="Comment16" Pos="565.53162,722.1546,34.33741" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.871367,0.0343398,0.00439144" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Action"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{FEC92953-B39F-47FE-AB85-AE52D147EE94}" Name="Comment11" Pos="588.81848,801.40228,34.049999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{FEC92953-B39F-47FE-AB85-AE52D147EE94}" Name="Comment11" Pos="588.81848,801.40228,34.049999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.0152085,0.114435,0.701102" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Indev"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{75BDF375-7C8E-42D9-8905-B778812F35DD}" Name="Comment22" Pos="362.604,512.70917,53.821987" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{75BDF375-7C8E-42D9-8905-B778812F35DD}" Name="Comment22" Pos="362.604,512.70917,53.821987" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.00518152,0.00518152,0.854993" bFixed="0" bHidden="0" fMaxDist="30" fSize="1.2" Text="District 9"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5D4F5B7A-0F8E-4429-961A-F174E1B3D8A7}" Name="Comment10" Pos="612.09204,775.72748,34.188831" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5D4F5B7A-0F8E-4429-961A-F174E1B3D8A7}" Name="Comment10" Pos="612.09204,775.72748,34.188831" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.0152085,0.114435,0.701102" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Indev"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5F7F2286-F276-4ED1-A6DB-39B61D664ABC}" Name="Comment14" Pos="530.15399,662.01672,35.146145" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5F7F2286-F276-4ED1-A6DB-39B61D664ABC}" Name="Comment14" Pos="530.15399,662.01672,35.146145" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.871367,0.0343398,0.00439144" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Action"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{C2DC4488-82B2-4DBA-BAC5-8713DC5AA1D0}" Name="Comment19" Pos="373.33563,475.62909,54.098774" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{C2DC4488-82B2-4DBA-BAC5-8713DC5AA1D0}" Name="Comment19" Pos="373.33563,475.62909,54.098774" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.0481718,0.679543,0.0202886" bFixed="0" bHidden="0" fMaxDist="30" fSize="1.2" Text="Nice place"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{A4B2A294-1500-47BC-B573-635493A65BC5}" Name="Comment3" Pos="521.99994,695,34" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{A4B2A294-1500-47BC-B573-635493A65BC5}" Name="Comment3" Pos="521.99994,695,34" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.871367,0.0343398,0.00439144" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Action"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{4149A99F-A981-47F4-9484-18753E32DF99}" Name="Comment9" Pos="603.24731,760.68494,35" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{4149A99F-A981-47F4-9484-18753E32DF99}" Name="Comment9" Pos="603.24731,760.68494,35" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.0152085,0.114435,0.701102" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Indev"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5FE61FA6-8D1B-4BA5-8056-457E1086FFC1}" Name="Comment4" Pos="524.93091,687.56769,34" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{5FE61FA6-8D1B-4BA5-8056-457E1086FFC1}" Name="Comment4" Pos="524.93091,687.56769,34" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0,0.102242,1" bFixed="0" bHidden="0" fMaxDist="10" fSize="2" Text="20 sec"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{2E614FB3-25E7-47C1-89DB-EC7F16F046BC}" Name="Comment17" Pos="602.29639,749.48474,38.619118" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{2E614FB3-25E7-47C1-89DB-EC7F16F046BC}" Name="Comment17" Pos="602.29639,749.48474,38.619118" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.871367,0.0343398,0.00439144" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Action"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{071CDEBA-1B35-4F97-BFFF-AD51454B40D2}" Name="Comment30" Pos="551.77454,144.54785,58.416092" FloorNumber="-1" Rotate="0.70090926,0,0,0.71325046" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{071CDEBA-1B35-4F97-BFFF-AD51454B40D2}" Name="Comment30" Pos="551.77454,144.54785,58.416092" FloorNumber="-1" Rotate="0.70090926,0,0,0.71325046" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="1,0.5,0" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.2" Text="Hey!"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{785F67CF-1B26-4FE6-A2B9-8FEAC0034AE8}" Name="Comment12" Pos="542.17664,811.93591,43.764282" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{785F67CF-1B26-4FE6-A2B9-8FEAC0034AE8}" Name="Comment12" Pos="542.17664,811.93591,43.764282" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.64448,0.021219,0.021219" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Action"/>
    </Object>
-   <Object Type="Group" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{264439EB-CBA7-40F6-8E62-D00B0155D240}" Name="parkor_2m" Pos="467.40637,563.49414,46.748169" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" Opened="0">
+   <Object Type="Group" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{264439EB-CBA7-40F6-8E62-D00B0155D240}" Name="parkor_2m" Pos="467.40637,563.49414,46.748169" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" Flags="2" Opened="0">
     <Objects>
-     <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{294E5D19-2127-4470-AA0B-AB27CEEFC216}" Name="Comment23" Parent="{264439EB-CBA7-40F6-8E62-D00B0155D240}" Pos="-0.11087036,0.66900635,1.3024368" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+     <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{294E5D19-2127-4470-AA0B-AB27CEEFC216}" Name="Comment23" Parent="{264439EB-CBA7-40F6-8E62-D00B0155D240}" Pos="-0.11087036,0.66900635,1.3024368" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
       <Properties nCharsPerLine="30" clrDiffuse="0.64448,0.450786,0.254152" bFixed="0" bHidden="0" fMaxDist="20" fSize="1.2" Text="Parkour 2m"/>
      </Object>
-     <Object Type="Designer" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{E0C196CE-3890-4D44-B213-7BDE098C3AB8}" Name="Designer295" Parent="{264439EB-CBA7-40F6-8E62-D00B0155D240}" Pos="0.11083984,-0.66900635,-1.3024406" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Material="materials/references/base_colors/brown" RndFlags="1073742088" StaticObjFlags="0" ViewDistRatio="100">
+     <Object Type="Designer" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{E0C196CE-3890-4D44-B213-7BDE098C3AB8}" Name="Designer295" Parent="{264439EB-CBA7-40F6-8E62-D00B0155D240}" Pos="0.11083984,-0.66900635,-1.3024406" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Flags="2" Material="materials/references/base_colors/brown" RndFlags="1073742088" StaticObjFlags="0" ViewDistRatio="100">
       <Brush DesignerModeFlags="0" SubdivisionLevel="0" SubdivisionSmoothingGroup="0" TessFactor="0" MirrorPlaneNormal="0,0,0" MirrorPlaneDistance="0">
        <Polygon GUID="{16806695-06CC-49CF-B280-B0F816A44A6A}" BinaryData="BAAAAAAAAED0Z+U/AAAAINH3D0AAAAAAAAAAAAAAAIC8yui/AAAAQCT1DkAAAAAAAAAAAAAAAIC8yui/AAAAQCT1DkAAAADAdUfRPwAAAEAlSN4/AAAAgLzUD0AAAADAdUfRPwQAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAACfE4h81k+2v6KzwLTT4O8/AAAAAAAAAACEezHNRWEPwNcxrb4AAAAAANhPPwAAAIAA2E8/7GpbvpiqOr7salu+"/>
        <Polygon GUID="{EBA5C826-7597-4A67-AD7D-5E6B35D751B0}" BinaryData="BgAAAAAAAIC8yui/AAAAQCT1DkAAAAAAAAAAAAAAAED0Z+U/AAAAINH3D0AAAAAAAAAAAAAAAAA5svQ/AAAAQFqjDUAAAAAAAAAAAAAAAACOW/c/AAAAAArb/D8AAAAAAAAAAAAAAMBd1fQ/AAAAINpU+j8AAAAAAAAAAAAAAECqG+K/AAAAgHW39z8AAAAAAAAAAAYAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAABAAAAAQAAAAFAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAAAAIAAdHM/ANhPvwB0cz/XMa0+CHItP7DaTz+xUla/sNpPP9x1c78xIS0/3HVzvwDYT78="/>
@@ -257,16 +257,16 @@
      </Object>
     </Objects>
    </Object>
-   <Object Type="Brush" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{E8486EED-C8E1-4B2E-8ADA-255A2C35B5E5}" Name="b_aspen_e1" Pos="381.51941,475.49518,52.623047" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/natural/trees/aspen/b_aspen_e.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613000">
+   <Object Type="Brush" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{E8486EED-C8E1-4B2E-8ADA-255A2C35B5E5}" Name="b_aspen_e1" Pos="381.51941,475.49518,52.623047" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Flags="2" MatLayersMask="0" Prefab="Objects/natural/trees/aspen/b_aspen_e.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613000">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{8312ADED-F5A0-40E9-A122-8A5FAB4289EF}" Name="Comment13" Pos="532.38049,808.36365,42.992195" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{8312ADED-F5A0-40E9-A122-8A5FAB4289EF}" Name="Comment13" Pos="532.38049,808.36365,42.992195" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="0.0152085,0.114435,0.701102" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Indev"/>
    </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{A5EEFBFF-756C-4027-AB3D-B2784437AA3C}" Name="Comment18" Pos="365.67682,493.80316,54.134815" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{A5EEFBFF-756C-4027-AB3D-B2784437AA3C}" Name="Comment18" Pos="365.67682,493.80316,54.134815" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment">
     <Properties nCharsPerLine="30" clrDiffuse="1,0.5,0" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.2" Text="Hey!"/>
    </Object>
   </LayerObjects>
