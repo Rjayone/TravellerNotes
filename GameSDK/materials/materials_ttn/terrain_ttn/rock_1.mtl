@@ -1,0 +1,10 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="52400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%OFFSET_BUMP_MAPPING%SILHOUETTE_PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="161" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain_ttn/rock_1_diff.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.69999999" TileV="0.60000002"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain_ttn/rock_1_ddna.dds"/>
+  <Texture Map="Heightmap" File="textures/terrain_ttn/rock_1_displ.dds"/>
+ </Textures>
+ <PublicParams SilPomDisplacement="0.094999999" EmittanceMapGamma="1" SilPomStepSizeViewDep="1" SSSIndex="0" SelfShadowStrength="0.96600002" ObmDisplacement="0.0146" HeightBias="0" SilPomNumSteps="20" IndirectColor="0.25,0.25,0.25"/>
+</Material>
