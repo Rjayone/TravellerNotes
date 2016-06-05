@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="section A(skydome)" GUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="0" IsDefaultColor="0" Color="10185524">
+ <Layer Name="section A(skydome)" GUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="0" IsDefaultColor="0" Color="9256960">
   <LayerObjects>
    <Object Type="GeomEntity" Layer="section A(skydome)" LayerGUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Id="{0CF0048E-92A8-4856-882F-2EFE70FB66BF}" Name="forest_skydome3" Pos="573.13959,254.19141,-1282.35" FloorNumber="-1" Rotate="0.24124406,-2.6810187e-007,3.125071e-007,0.97046447" Scale="5.0811949,5.0811949,5.081193" ColorRGB="65535" Material="objects/sky/forest_sky_dome" MatLayersMask="0" Geometry="objects/sky/forest_skydome.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
     <Properties esFaction="">
