@@ -1,0 +1,65 @@
+<ObjectLayer>
+ <Layer Name="section_A(cut_sc)" GUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="13195008">
+  <LayerObjects>
+   <Object Type="Camera" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{EB4EB41B-E687-4735-B83C-963B9D129EAB}" Name="Camera2" Pos="608.63251,143.65697,25.218555" FloorNumber="-1" Rotate="0.98742777,0.042637635,0.0065666321,0.15207012" ColorRGB="16776960" FOV="0.959931" NearZ="0.25" FarZ="1024" EntityClass="CameraSource">
+    <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0" CameraShakeSeed="0"/>
+   </Object>
+   <Object Type="Entity" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{6D84F251-4B5B-4D4E-85B9-AA3031250F7E}" Name="FogVolume4" Pos="598.65607,150.06514,25.12628" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="FogVolume">
+    <Properties bActive="1" bAffectsThisAreaOnly="0" color_Color="0.496933,0.031896,0.031896" DensityNoiseOffset="0" DensityNoiseScale="1" DensityNoiseTimeFrequency="0" DensityOffset="0" FallOffDirLati="70" FallOffDirLong="36" FallOffScale="2" FallOffShift="0" GlobalDensity="1" fHDRDynamic="0" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="0" eiVolumeType="0" WindInfluence="1">
+     <DensityNoiseFrequency x="10" y="10" z="10"/>
+     <Size x="20" y="20" z="10"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{474A9459-52BD-4BAF-B371-AE3D8700CF34}" Name="luk1" Pos="558.70721,140.23466,59.345814" FloorNumber="-1" Rotate="0.99756402,0,-0.069756493,0" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/wb_marsh/luk.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{1988A07E-03EC-4D6F-9E87-063F07423272}" Name="pillar1" Pos="550.03723,141.14961,55.669552" FloorNumber="-1" Rotate="0.99870586,-0.0061108889,-0.025453672,-0.043604419" Scale="1.6297365,1.6297365,1.6297367" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/wb_marsh/pillar.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{86CD818A-0157-44A8-8D92-79ECF67F4595}" Name="korri2" Pos="555.50793,141.95433,57.701283" FloorNumber="-1" Rotate="0.89493436,0,-0.44619784,0" Scale="0.75127792,0.7512778,0.75127792" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/wb_marsh/korri.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{78027EDE-ED77-464E-8E06-2C67E3AB1AC7}" Name="AnimObject1" Pos="552.01703,145.02135,57.671871" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.44999999,0.44999999,0.44999999" ColorRGB="65535" Material="materials/references/base_colors/orange" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AnimObject">
+    <Properties ActivatePhysicsDist="50" ActivatePhysicsThreshold="0" bCanTriggerAreas="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/props/maritime/buoy/buoy.cgf" bNoFriendlyFire="0" bPickable="0" soclasses_SmartObjectClass="" bUsable="1" UseMessage="Say">
+     <Animation bAlwaysUpdate="0" Animation="Default" bLoop="1" bPhysicalizeAfterAnimation="0" playerAnimationState="" bPlaying="1" Speed="1"/>
+     <Cinematic bOnDemandModelLoad="0" bRenderAlways="0"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bArticulated="0" bBulletCollisionEnabled="1" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="0" bRigidBody="0">
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{CFF080E3-3816-4745-8CFF-0EB3C9F45C44}" Name="Shape1" Pos="551.92145,144.27718,56.429684" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="5" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-1.1390991,2.6961365,-0.2904129"/>
+     <Point Pos="-2.8756104,3.2188873,-0.061279297"/>
+     <Point Pos="-5.9203491,2.7230377,-0.070865631"/>
+     <Point Pos="-6.8886108,0.53710938,0"/>
+     <Point Pos="-1.2997437,-1.8365479,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{3E4783F8-7FA6-409F-92DC-9F58B7B06F67}" Name="AudioAreaAmbience1" Pos="551.04669,143.63757,57.861195" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AudioAreaAmbience">
+    <Properties bEnabled="0" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" audioTriggerPlayTrigger="" audioRTPCRtpc="area_fade_distance" fRtpcDistance="5" eiSoundObstructionType="2" audioTriggerStopTrigger=""/>
+    <EntityLinks>
+     <Link TargetId="{CFF080E3-3816-4745-8CFF-0EB3C9F45C44}" Name="NewLink" Version="1"/>
+    </EntityLinks>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
