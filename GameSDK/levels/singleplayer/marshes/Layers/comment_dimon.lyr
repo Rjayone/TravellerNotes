@@ -1,0 +1,18 @@
+<ObjectLayer>
+ <Layer Name="comment_Dimon" GUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Exportable="0" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="5537792">
+  <LayerObjects>
+   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{545FB27F-40B9-4468-8239-B73AB5D645B7}" Name="Comment36" Pos="575.58728,212.4352,45.870358" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
+    <Properties nCharsPerLine="30" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="100" fSize="1.33" Text="Zatup vplane?"/>
+   </Object>
+   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{0D75819F-22A7-418F-85DE-555500F75291}" Name="Comment33" Pos="591.08136,218.85651,46.488384" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+    <Properties nCharsPerLine="30" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="100" fSize="1.33" Text="Tut nujno peresmotret, bolshoi zatup. Nujno kakto oboznachit pod&apos;em yavno"/>
+   </Object>
+   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{F82214B0-9298-448C-9536-AF2176F13F6D}" Name="Comment35" Pos="590.35095,223.27243,49.358784" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
+    <Properties nCharsPerLine="30" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="100" fSize="1.33" Text="Ochen maloe prostranstvo dla pod&apos;ema"/>
+   </Object>
+   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{90818AE9-8CE1-403D-94A9-B6FF737D4964}" Name="Comment38" Pos="588.36993,218.8419,44.659473" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
+    <Properties nCharsPerLine="30" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="100" fSize="1.33" Text="koster prosvechivaet, tak zadumano?"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
