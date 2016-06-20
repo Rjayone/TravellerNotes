@@ -1,7 +1,7 @@
 <ObjectLayer>
  <Layer Name="section_A(effects)" GUID="{15EBC2F4-C6C3-401A-BC78-AC9C27FE060E}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="15822336">
   <LayerObjects>
-   <Object Type="Entity" Layer="section_A(effects)" LayerGUID="{15EBC2F4-C6C3-401A-BC78-AC9C27FE060E}" Id="{08A1AA00-A139-47C2-B55B-06F6844AD2E8}" Name="BaldEagle1" Pos="614.09271,150.1321,56.992188" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BaldEagle">
+   <Object Type="Entity" Layer="section_A(effects)" LayerGUID="{15EBC2F4-C6C3-401A-BC78-AC9C27FE060E}" Id="{08A1AA00-A139-47C2-B55B-06F6844AD2E8}" Name="BaldEagle1" Pos="589.35272,150.1321,106.56023" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BaldEagle">
     <Properties>
      <Boid nCount="10" gravity_at_death="-9.81" bInvulnerable="0" Mass="10" object_Model="objects/characters/animals/birds/bald_eagle/eagle.chr"/>
      <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="0" FactorAlign="1" FactorCohesion="1" FactorSeparation="10" FieldOfViewAngle="250"/>
@@ -10,6 +10,15 @@
     </Properties>
    </Object>
    <Object Type="Entity" Layer="section_A(effects)" LayerGUID="{15EBC2F4-C6C3-401A-BC78-AC9C27FE060E}" Id="{EB5B11A3-CEA3-4C38-A1B4-663A2EC0BA08}" Name="Birds1" Pos="568.12323,151.12047,46.292568" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Birds">
+    <Properties>
+     <Boid nCount="5" gravity_at_death="-9.81" bInvulnerable="0" Mass="10" object_Model="objects/characters/animals/birds/pigeon/pigeon_lf.chr"/>
+     <Flocking AttractDistMax="20" AttractDistMin="1" bEnableFlocking="1" FactorAlign="3" FactorCohesion="2" FactorSeparation="1" FieldOfViewAngle="250"/>
+     <Ground FactorAlign="0" FactorCohesion="3" FactorOrigin="10" FactorSeparation="0.1" HeightOffset="0" OnGroundIdleDurationMax="3.2" OnGroundIdleDurationMin="1.6" OnGroundWalkDurationMax="6" OnGroundWalkDurationMin="4" WalkSpeed="0" WalkToIdleDuration="3"/>
+     <Movement FactorAvoidLand="100" FactorHeight="0.4" FactorOrigin="1" FactorTakeOff="10" FlightTime="20" HeightMax="20" HeightMin="10" LandDecelerationHeight="5" MaxAnimSpeed="1" SpeedMax="5" SpeedMin="2"/>
+     <Options bActivate="1" AnimationDist="0" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="1" PickableMessage="" bPickableWhenAlive="0" bPickableWhenDead="1" Radius="4" bSpawnFromPoint="0" bStartOnGround="1" VisibilityDist="200"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="section_A(effects)" LayerGUID="{15EBC2F4-C6C3-401A-BC78-AC9C27FE060E}" Id="{DC391EBC-5C7E-47CA-984D-EEFC1D821245}" Name="Birds2" Pos="574.02258,145.9922,55.257828" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Birds">
     <Properties>
      <Boid nCount="5" gravity_at_death="-9.81" bInvulnerable="0" Mass="10" object_Model="objects/characters/animals/birds/pigeon/pigeon_lf.chr"/>
      <Flocking AttractDistMax="20" AttractDistMin="1" bEnableFlocking="1" FactorAlign="3" FactorCohesion="2" FactorSeparation="1" FieldOfViewAngle="250"/>
