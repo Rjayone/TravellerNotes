@@ -4,26 +4,11 @@
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{7282C818-AB38-4E96-A0DB-85BD9A27E9EB}" Name="Comment48" Pos="576.2843,239.67879,49.850201" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="Iz za kanala moment prosral, ne znayu chto delat&apos; :("/>
    </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{8AF7FF25-567C-4979-B258-4D2B01D9CE6B}" Name="Comment37" Pos="581.22491,218.55809,40.880444" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="Nemnogo peredelal"/>
-   </Object>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{E93FCE36-7572-4910-A9A6-29AA92D401E5}" Name="Comment50" Pos="577.78699,262.39941,68.581306" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="i dovesti do etoi tochki"/>
    </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{38B46C3D-6B0B-49F5-B953-DC575153FCF7}" Name="Comment44" Pos="589.90247,240.59021,39.701008" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="sdelai kruglimi"/>
-   </Object>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{B842763F-2378-4565-9364-5D70D5CAA186}" Name="Comment49" Pos="582.90448,237.35815,54.879841" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="s"/>
-   </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{180FF645-80EF-4511-B8C3-D20360987093}" Name="Comment46" Pos="568.83282,256.77966,42.812973" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="marshrut ploho chitaetsya, poprobui vnachale ukazat&apos; cel&apos;."/>
-   </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{3F542051-BCD7-4EDF-B8B9-99F2EC4A8AF7}" Name="Comment40" Pos="578.98694,202.97186,40.702278" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="Sdelat&apos; akcent. Ne vsegda igrok nahodit eto mesto i strashno tupit"/>
-   </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{64F39066-2437-4AA6-9AB0-C676CCCF83FB}" Name="Comment42" Pos="592.35547,223.6304,49.358158" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="Ochen&apos; malenkoe rastoyanie dlya pod&apos;ema"/>
    </Object>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{6EADA96D-4681-4012-93AC-BB45FDA63CAB}" Name="Comment51" Pos="583.06323,275.83005,68.581306" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="zdes&apos; sekciya B konchaetsya"/>
@@ -31,23 +16,8 @@
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{8AE9006F-1A71-4692-A035-888EE8A9729A}" Name="Comment34" Pos="596.79803,174.72997,24.453257" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="Battle"/>
    </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{4489A772-9A60-4FD4-9829-0539C6B05423}" Name="Comment41" Pos="594.70569,218.75522,45.813354" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="Mesto interesnoe, no nado peresmotret&apos;. Igrok chasto tupit, ne znaya kak prohodit"/>
-   </Object>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{017F3574-8289-4C90-8D29-DB569E58E118}" Name="Comment52" Pos="590.27734,249.21254,49.850201" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="Rel&apos;si?"/>
-   </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{6BADDB7E-3235-41D0-910F-40F77BFE707A}" Name="Comment39" Pos="574.7915,211.29968,43.272327" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="mojno peredelat? Ne nravitsya kak ono rabotaet"/>
-   </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{545FB27F-40B9-4468-8239-B73AB5D645B7}" Name="Comment36" Pos="575.58728,212.4352,45.870358" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="30" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="100" fSize="1.33" Text="Zatup vplane?"/>
-   </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{584B09A7-286B-4E2A-AFCB-015A19CDDEE0}" Name="Comment43" Pos="582.84344,256.65488,27.111134" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="Truba viglyadit kak cel, libo sdelat&apos; alternativnii pod&apos;em dlya lohov cherez nee, libo ubrat&apos;"/>
-   </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{F82214B0-9298-448C-9536-AF2176F13F6D}" Name="Comment35" Pos="590.35095,223.27243,49.358784" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="30" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="100" fSize="1.33" Text="Ochen maloe prostranstvo dla pod&apos;ema"/>
    </Object>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{0EA47CBD-C43C-4072-844F-9FB720D039BA}" Name="Comment32" Pos="606.32031,140.11526,52.33128" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="2" fSize="1.33" Text="Luchnik"/>
@@ -60,9 +30,6 @@
    </Object>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{42D130F8-1184-4F20-B7DE-01EDB8B1757A}" Name="Comment31" Pos="569.16071,150.54959,46.679531" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="5" fSize="1.33" Text="Prigat ot suda. Nujna kalibrovka na bilde s prijkami"/>
-   </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{DBDE77FF-DF0A-4A86-B8AB-FB87A8397EFA}" Name="Comment45" Pos="586.44714,249.13049,39.802387" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="i dobav&apos; sveta"/>
    </Object>
   </LayerObjects>
  </Layer>

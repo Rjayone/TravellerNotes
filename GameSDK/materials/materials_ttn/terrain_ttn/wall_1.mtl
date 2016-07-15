@@ -1,0 +1,10 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="5A400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%OFFSET_BUMP_MAPPING%PARALLAX_OCCLUSION_MAPPING%SILHOUETTE_PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.0074990322,0.0074990322,0.0074990322" Opacity="1" Shininess="190" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/architecture/marshes/textures/wall_3_diff.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/architecture/marshes/textures/wall_3_ddna.tif"/>
+  <Texture Map="Heightmap" File="objects/architecture/marshes/textures/wall_3_displ.tif"/>
+ </Textures>
+ <PublicParams SilPomDisplacement="0.1" EmittanceMapGamma="1" SilPomStepSizeViewDep="1" PomDisplacement="0.0252" SSSIndex="0" SelfShadowStrength="0.46599999" ObmDisplacement="0.0188" HeightBias="0" SilPomNumSteps="32.400002" IndirectColor="0.25,0.25,0.25"/>
+</Material>

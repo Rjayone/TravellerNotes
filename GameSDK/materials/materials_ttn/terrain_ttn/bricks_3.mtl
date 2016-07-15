@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="4A400000" StringGenMask="%NORMAL_MAP%OFFSET_BUMP_MAPPING%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.76052463,0.55201149,0.27049783" Specular="0.0074990322,0.0074990322,0.0074990322" Opacity="1" Shininess="146" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/architecture/marshes/textures/wall_2_diff.tif"/>
+  <Texture Map="Bumpmap" File="objects/architecture/marshes/textures/wall_2_ddna.tif"/>
+  <Texture Map="Heightmap" File="objects/architecture/marshes/textures/wall_2_displ.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" PomDisplacement="0.027000001" SSSIndex="0" SelfShadowStrength="1.522" ObmDisplacement="0.012" HeightBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+</Material>

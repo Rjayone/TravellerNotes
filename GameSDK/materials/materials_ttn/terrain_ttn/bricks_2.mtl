@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="4A400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%OFFSET_BUMP_MAPPING%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.01228649,0.01228649,0.01228649" Opacity="1" Shininess="108" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain_ttn/brick2_diff.dds"/>
+  <Texture Map="Bumpmap" File="textures/terrain_ttn/brick2_ddna.dds"/>
+  <Texture Map="Heightmap" File="textures/terrain_ttn/brick2_displ.dds"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" PomDisplacement="0.034200002" SSSIndex="0" SelfShadowStrength="2.227" ObmDisplacement="0.0146" HeightBias="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

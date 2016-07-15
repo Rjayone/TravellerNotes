@@ -1,6 +1,16 @@
 <ObjectLayer>
  <Layer Name="section_A(water)" GUID="{0912923A-70C9-48E6-998D-8FCA850311CE}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="16742405">
   <LayerObjects>
+   <Object VolumeDepth="10" StreamSpeed="0" FogDensity="2" FogColor="0.028426,0.0544803,0.06301" FogColorMultiplier="0.5" FogColorAffectedBySun="1" FogShadowing="0.5" UScale="1" VScale="1" CapFogAtVolumeDepth="0" Caustics="1" CausticIntensity="1" CausticTiling="1" CausticHeight="0.5" Type="WaterVolume" Layer="section_A(water)" LayerGUID="{0912923A-70C9-48E6-998D-8FCA850311CE}" Id="{CBC8312D-9C8D-461D-89B3-B6B427F196C9}" Name="WaterVolume5" Pos="572.99768,256.45837,28.012197" FloorNumber="-1" Rotate="0.90996128,0,0,-0.41469327" Scale="1.29,1.29,1.29" ColorRGB="16763904" Material="materials/water/watervolumes/water_cave_causticscontrol" Width="0" Height="0" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" ViewDistRatio="100" EntityClass="AreaShape">
+    <Advanced Volume="0" VolumeAcc="0.001" BorderPad="0" BorderConvex="0" ObjVolThresh="0.001" SimCell="0" WaveSpeed="140" WaveDamping="0.2" WaveTimestep="0.02" MinWaveVel="0.01" DepthCells="8" HeightLimit="7" Resistance="1" SimAreaGrowth="0"/>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="3.2579346,10.288116,0"/>
+     <Point Pos="23.775558,4.2918701,0"/>
+     <Point Pos="20.826248,-6.4207458,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
    <Object VolumeDepth="20" StreamSpeed="0" FogDensity="5" FogColor="0.0395462,0.0307134,0.0109601" FogColorMultiplier="2" FogColorAffectedBySun="1" FogShadowing="0.5" UScale="1" VScale="1" CapFogAtVolumeDepth="0" Caustics="1" CausticIntensity="1" CausticTiling="1" CausticHeight="0.5" Type="WaterVolume" Layer="section_A(water)" LayerGUID="{0912923A-70C9-48E6-998D-8FCA850311CE}" Id="{5EE89262-6A4F-44E7-9E84-0B216E2957E7}" Name="WaterVolume3" Pos="621.89001,186.9445,24.139999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/water/watervolumes/water_forest_a" Width="0" Height="0" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" ViewDistRatio="100" EntityClass="AreaShape">
     <Advanced Volume="0" VolumeAcc="0.001" BorderPad="0" BorderConvex="0" ObjVolThresh="0.001" SimCell="0" WaveSpeed="140" WaveDamping="0.2" WaveTimestep="0.02" MinWaveVel="0.01" DepthCells="8" HeightLimit="7" Resistance="1" SimAreaGrowth="0"/>
     <Points>
