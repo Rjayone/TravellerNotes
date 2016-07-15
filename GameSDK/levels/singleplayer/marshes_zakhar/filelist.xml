@@ -1,6 +1,0 @@
-<download name="marshes" type="Map">
- <index src="filelist.xml" dest="filelist.xml"/>
- <files>
-  <file src="level.pak" dest="level.pak" size="2533446" md5="c30835603a5572b811f2fa448c1d3584"/>
- </files>
-</download>
