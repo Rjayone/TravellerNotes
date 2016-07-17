@@ -26,7 +26,7 @@
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="tut chto govoril Vova, nado povisit poziciyu GG."/>
    </Object>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{59A97BDE-5036-4A6A-A211-EF9B65A0F077}" Name="Comment29" Pos="548.1366,142.4489,58.739384" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="100" fSize="1.33" Text="Sketch uvidet bi"/>
+    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="2" fSize="1.33" Text="Sketch uvidet bi"/>
    </Object>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{42D130F8-1184-4F20-B7DE-01EDB8B1757A}" Name="Comment31" Pos="569.16071,150.54959,46.679531" FloorNumber="-1" Rotate="1,9.2642999e-008,-7.5020807e-008,0" ColorRGB="41215" EntityClass="Comment">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="5" fSize="1.33" Text="Prigat ot suda. Nujna kalibrovka na bilde s prijkami"/>
