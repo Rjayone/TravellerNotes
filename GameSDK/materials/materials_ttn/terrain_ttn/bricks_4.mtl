@@ -1,0 +1,12 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="42400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%OFFSET_BUMP_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.83077002,0.83077002,0.83077002" Specular="0,0,0" Opacity="1" Shininess="157" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/architecture/marshes/textures/bricks_2_diff.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/architecture/marshes/textures/bricks_2_ddna.tif"/>
+  <Texture Map="Detail" File="textures/detail_bumpmaps/rock/detail_cliff_rock_detail.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="9" TileV="9"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.043000001" SSSIndex="0" DetailBumpScale="0.2" SelfShadowStrength="3" ObmDisplacement="0.0040000002" HeightBias="1" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
