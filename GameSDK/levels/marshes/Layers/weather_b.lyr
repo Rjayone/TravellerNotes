@@ -1,0 +1,12 @@
+<ObjectLayer>
+ <Layer Name="weather_b" GUID="{54E7107D-59FF-4ABB-A1FE-8F0877085A51}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Entity" Layer="weather_b" LayerGUID="{54E7107D-59FF-4ABB-A1FE-8F0877085A51}" Id="{1438C845-4781-419D-AA6C-381757C5F7D9}" Name="FogVolume3" Pos="556.82196,270.28955,48.00552" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="FogVolume">
+    <Properties bActive="0" bAffectsThisAreaOnly="0" color_Color="0.814847,0.814847,0.814847" DensityNoiseOffset="2" DensityNoiseScale="10" DensityNoiseTimeFrequency="1" DensityOffset="0" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="0.3" FallOffShift="0" GlobalDensity="0.0015" fHDRDynamic="0" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="1" eiVolumeType="0" WindInfluence="1">
+     <DensityNoiseFrequency x="10" y="10" z="10"/>
+     <Size x="500" y="500" z="30"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

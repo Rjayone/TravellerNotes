@@ -1,0 +1,1664 @@
+<ObjectLayer>
+ <Layer Name="section A(skydome)" GUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Exportable="1" ExportLayerPak="1" DefaultLoaded="1" HavePhysics="0" IsDefaultColor="0" Color="9256960">
+  <LayerObjects>
+   <Object Type="EnvironmentProbe" Layer="section A(skydome)" LayerGUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Id="{1B5B9647-D472-436F-9DEF-47C03F312765}" Name="EnvironmentProbe5" Pos="601.48633,172.66791,26.199997" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="20" BoxSizeY="20" BoxSizeZ="20" _nVersion="-1">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/marshes/environmentprobe5_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="section A(skydome)" LayerGUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Id="{0CF0048E-92A8-4856-882F-2EFE70FB66BF}" Name="forest_skydome3" Pos="573.13959,254.19141,-1282.35" FloorNumber="-1" Rotate="0.24124406,-2.6810187e-07,3.125071e-07,0.97046447" Scale="4.5,4.5,4.5" ColorRGB="65535" Material="objects/sky/forest_sky_dome" MatLayersMask="0" Geometry="objects/sky/forest_skydome.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="section A(skydome)" LayerGUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Id="{F254A79F-CDA5-4080-BEC3-E71E1E0AF979}" Name="Global_Probes" Pos="551,214,49.507534" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="5000" BoxSizeY="5000" BoxSizeZ="5000" _nVersion="0">
+     <Color clrDiffuse="0.327778,0.603827,1" fDiffuseMultiplier="2" fSpecularMultiplier="2"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/marshes/global_probes_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="section A(skydome)" LayerGUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Id="{6D5B1BC3-9634-40E0-A316-54D3E15DD6DA}" Name="FlowgraphEntity3" Pos="575.99933,145.27399,73.901627" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FlowgraphEntity" HasEntity="1">
+    <FlowGraph Description="" Group="fg_new" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1" Class="Game:Start" pos="726,1514.7017,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="3" Class="entity:ProximityTrigger" pos="1866,1784.7017,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="4" Class="Debug:ConsoleVariable" pos="1016,1644.7017,0" flags="0">
+       <Inputs CVar="hud_hide" Value="1"/>
+      </Node>
+      <Node Id="6" Class="Movement:RotateEntity" pos="2226,2604.7017,0" flags="0" EntityGUID="{0CF0048E-92A8-4856-882F-2EFE70FB66BF}" EntityGUID_64="485692A80CF0048E">
+       <Inputs entityId="0" Speed="0,0,-0.25" Paused="0" Ref="0"/>
+      </Node>
+      <Node Id="7" Class="Movement:RotateEntity" pos="2226,2714.7017,0" flags="0" EntityGUID="{412F7CD8-5381-469A-8D45-A171D6A167FF}" EntityGUID_64="469A5381412F7CD8">
+       <Inputs entityId="0" Speed="0,0,-0.5" Paused="0" Ref="0"/>
+      </Node>
+      <Node Id="8" Class="Movement:RotateEntity" pos="2226,2824.7017,0" flags="0" EntityGUID="{8ADCB932-0168-4F8F-BFE7-43F0CF084AA3}" EntityGUID_64="4F8F01688ADCB932">
+       <Inputs entityId="0" Speed="0,0,-1" Paused="0" Ref="0"/>
+      </Node>
+      <Node Id="9" Class="entity:ProximityTrigger" pos="56,2564.7017,0" flags="0" EntityGUID="{4E4D4E18-420B-44E7-A734-B32325E6EF81}" EntityGUID_64="44E7420B4E4D4E18">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="10" Class="entity:FtEnemyBasic" pos="18747.814,6060.8228,0" flags="0" EntityGUID="{4EAFFDE7-E845-40D3-A4A7-4A2CA6BF1116}" EntityGUID_64="40D3E8454EAFFDE7">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="13" Class="entity:FogVolume" pos="2396,1794.7017,0" flags="0" EntityGUID="{97D4239B-269E-47A6-B98D-DC2531ED87B8}" EntityGUID_64="47A6269E97D4239B">
+       <Inputs entityId="0" AO_Enabled="0" EV_Density="0.0015" EV_DensityNoiseOffset="0" EV_DensityNoiseScale="0" EV_DensityNoiseTimeFrequency="0" EV_WindInfluence="0"/>
+      </Node>
+      <Node Id="14" Class="Time:TimeOfDay" pos="76,1624.7017,0" flags="0">
+       <Inputs Time="17" ForceUpdate="0" Speed="1"/>
+      </Node>
+      <Node Id="16" Class="Debug:ConsoleVariable" pos="1016,1514.7017,0" flags="0">
+       <Inputs CVar="e_VolumetricFog" Value="1"/>
+      </Node>
+      <Node Id="17" Class="Debug:ConsoleVariable" pos="1306,2054.7017,0" flags="0">
+       <Inputs CVar="cl_fov" Value="85"/>
+      </Node>
+      <Node Id="18" Class="Logic:NOT" pos="2216,2034.7017,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="19" Class="Logic:Any" pos="2266,1934.7017,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="21" Class="Actor:LocalPlayer" pos="-174,1874.7017,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="22" Class="entity:FogVolume" pos="2396,2114.7017,0" flags="0" EntityGUID="{E235F26D-C7FC-4BAD-B881-6C384A0E1E67}" EntityGUID_64="4BADC7FCE235F26D">
+       <Inputs entityId="0" AO_Enabled="0" EV_Density="0" EV_DensityNoiseOffset="0" EV_DensityNoiseScale="0" EV_DensityNoiseTimeFrequency="0" EV_WindInfluence="0"/>
+      </Node>
+      <Node Id="23" Class="entity:ProximityTrigger" pos="56,2764.7017,0" flags="0" EntityGUID="{626DEE07-290A-4FA2-8B78-4086D09823F1}" EntityGUID_64="4FA2290A626DEE07">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="25" Class="Entity:Attachment" pos="19807.814,6390.8228,0" flags="0" EntityGUID="{4EAFFDE7-E845-40D3-A4A7-4A2CA6BF1116}" EntityGUID_64="40D3E8454EAFFDE7">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="26" Class="entity:SpawnPoint" pos="346,2544.7017,0" flags="0" EntityGUID="{0CDDCE42-C87A-48DC-81FC-7F3731942D31}" EntityGUID_64="48DCC87A0CDDCE42">
+       <Inputs entityId="0" Disable="1" Enable="0" Spawn="0"/>
+      </Node>
+      <Node Id="27" Class="Time:Delay" pos="19107.814,6460.8228,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="28" Class="entity:SpawnPoint" pos="376,2704.7017,0" flags="0" EntityGUID="{5223A60C-B2A5-44C4-A221-8A5A31BFAFB0}" EntityGUID_64="44C4B2A55223A60C">
+       <Inputs entityId="0" Disable="1" Enable="0" Spawn="0"/>
+      </Node>
+      <Node Id="29" Class="Inventory:ItemAdd" pos="80,2000,0" flags="0">
+       <Inputs entityId="0" item="WoddenSpearHeavy" ItemType="" Unique="0"/>
+      </Node>
+      <Node Id="30" Class="Debug:DisplayMessage" pos="996,2174.7017,0" flags="0">
+       <Inputs entityId="0" message="+" DisplayTime="0" posX="50" posY="50" fontSize="3" clr_Color="1,1,1" centered="1"/>
+      </Node>
+      <Node Id="35" Class="Engine:Viewport" pos="716,2174.7017,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="36" Class="Math:Div" pos="866,2174.7017,0" flags="0">
+       <Inputs A="0" B="2"/>
+      </Node>
+      <Node Id="37" Class="Math:Div" pos="866,2234.7017,0" flags="0">
+       <Inputs A="0" B="2"/>
+      </Node>
+      <Node Id="38" Class="Game:Start" pos="716,2014.7017,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="39" Class="Time:Delay" pos="19737.814,6630.8228,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="42" Class="entity:ProximityTrigger" pos="56,3324.7017,0" flags="0" EntityGUID="{A66AF9B8-DE88-41E9-8204-BDFE89F95008}" EntityGUID_64="41E9DE88A66AF9B8">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="43" Class="Time:TimeOfDay" pos="326,3424.7017,0" flags="0">
+       <Inputs Time="16" ForceUpdate="0" Speed="1"/>
+      </Node>
+      <Node Id="48" Class="Debug:ConsoleVariable" pos="946,2004.7017,0" flags="0">
+       <Inputs CVar="g_debug_game_ent_hits" Value="0"/>
+      </Node>
+      <Node Id="49" Class="Debug:ConsoleVariable" pos="76,2164.7017,0" flags="0">
+       <Inputs CVar="g_pl_disable_stamina_consumption" Value="1"/>
+      </Node>
+      <Node Id="50" Class="Environment:Sun" pos="326,3314.7017,0" flags="0">
+       <Inputs Latitude="76" Longitude="73" ForceUpdate="0"/>
+      </Node>
+      <Node Id="51" Class="Game:Start" pos="-154,3324.7017,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="52" Class="Game:Start" pos="-154,2734.7017,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="53" Class="Entity:EntityId" pos="19467.814,6420.8228,0" flags="0" EntityGUID="{3C59521C-D393-4321-ACEE-6144CFAFF88B}" EntityGUID_64="4321D3933C59521C">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="54" Class="Debug:ConsoleVariable" pos="1226,2224.7017,0" flags="0">
+       <Inputs CVar="ca_aim_pose_alternative_debug" Value="0"/>
+      </Node>
+      <Node Id="55" Class="Game:Start" pos="-184,1954.7017,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="56" Class="entity:RigidBodyEx" pos="19377.814,5840.8228,0" flags="0" EntityGUID="{3C59521C-D393-4321-ACEE-6144CFAFF88B}" EntityGUID_64="4321D3933C59521C">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="60" Class="Environment:Sun" pos="246,3974.7017,0" flags="0">
+       <Inputs Latitude="76" Longitude="73" ForceUpdate="0"/>
+      </Node>
+      <Node Id="61" Class="Time:TimeOfDay" pos="246,4084.7017,0" flags="0">
+       <Inputs Time="14" ForceUpdate="0" Speed="1"/>
+      </Node>
+      <Node Id="63" Class="entity:ProximityTrigger" pos="-184,3974.7017,0" flags="0" EntityGUID="{E2E3FF01-00DC-436D-968D-9435572CBF23}" EntityGUID_64="436D00DCE2E3FF01">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="65" Class="entity:FogVolume" pos="396,4284.7017,0" flags="0" EntityGUID="{97D4239B-269E-47A6-B98D-DC2531ED87B8}" EntityGUID_64="47A6269E97D4239B">
+       <Inputs entityId="0" AO_Enabled="1" EV_Density="0" EV_DensityNoiseOffset="0" EV_DensityNoiseScale="0" EV_DensityNoiseTimeFrequency="0" EV_WindInfluence="0"/>
+      </Node>
+      <Node Id="66" Class="Math:SetNumber" pos="106,4284.7017,0" flags="0">
+       <Inputs in="0.1"/>
+      </Node>
+      <Node Id="67" Class="Math:SetNumber" pos="106,4354.7017,0" flags="0">
+       <Inputs in="1"/>
+      </Node>
+      <Node Id="69" Class="Game:Start" pos="-124,4314.7017,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="70" Name="Enter_arch_arena_(after_fall)._Battle_zone" Class="_commentbox" pos="-214,3847.5229,0" flags="0">
+       <Inputs TextSize="1" Color="0.401978,0.205079,0.0561285" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="940" Height="600"/>
+       <NodeSize Width="940" Height="655.44104"/>
+      </Node>
+      <Node Id="71" Name="Chaginng_tod_and_sun_angle" Class="_comment" pos="246,3944.7017,0" flags="0"/>
+      <Node Id="72" Name="Spawn_player" Class="_commentbox" pos="-204,1383.986,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="720" Height="1030"/>
+       <NodeSize Width="720" Height="1085.441"/>
+      </Node>
+      <Node Id="73" Name="Set_fog_volume_density" Class="_comment" pos="236,4244.7017,0" flags="0"/>
+      <Node Id="74" Name="Take_spear" Class="_comment" pos="76,1964.7017,0" flags="0"/>
+      <Node Id="75" Name="Display_setting" Class="_commentbox" pos="686,1833.8656,0" flags="0">
+       <Inputs TextSize="1" Color="0.262251,0.651406,0.708376" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="930" Height="530"/>
+       <NodeSize Width="930" Height="585.44104"/>
+      </Node>
+      <Node Id="76" Name="Stamina_disable//lol,_this_variables_must_go_to_system.cfg" Class="_comment" pos="76,2124.7017,0" flags="0"/>
+      <Node Id="77" Name="Disable_hit_ingame_coments//this_variables_must_go_to_system.cfg" Class="_comment" pos="946,1964.7017,0" flags="0"/>
+      <Node Id="78" Name="Creating_center_point" Class="_comment" pos="806,2124.7017,0" flags="0"/>
+      <Node Id="79" Name="Respawn_player_after_falling" Class="_commentbox" pos="-204,2466.9512,0" flags="0">
+       <Inputs TextSize="1" Color="0.254152,0.376262,0.715694" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="800" Height="490"/>
+       <NodeSize Width="800" Height="545.44104"/>
+      </Node>
+      <Node Id="80" Name="Enter_second_arena_(after_gate)._Platformer_zone" Class="_commentbox" pos="-214,3167.5242,0" flags="0">
+       <Inputs TextSize="1" Color="0.401978,0.205079,0.0561285" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="940" Height="400"/>
+       <NodeSize Width="940" Height="455.44104"/>
+      </Node>
+      <Node Id="81" Name="Chaginng_tod_and_sun_angle" Class="_comment" pos="316,3284.7017,0" flags="0"/>
+      <Node Id="82" Name="Graphic_setting" Class="_commentbox" pos="686,1381.4972,0" flags="0">
+       <Inputs TextSize="1" Color="0.262251,0.651406,0.708376" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="620" Height="340"/>
+       <NodeSize Width="620" Height="395.44104"/>
+      </Node>
+      <Node Id="83" Name="FOV_setting" Class="_comment" pos="1346,2024.7017,0" flags="0"/>
+      <Node Id="84" Name="Disable_AI_debug_draw//this_variables_must_go_to_system.cfg" Class="_comment" pos="1226,2184.7017,0" flags="0"/>
+      <Node Id="85" Class="entity:RigidBodyEx" pos="19550.602,7992.3945,0" flags="0" EntityGUID="{7F02887A-CBF3-4CB2-85D8-6B27E6768C79}" EntityGUID_64="4CB2CBF37F02887A">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="86" Class="Physics:PhysicsEnable" pos="19800.602,8342.3945,0" flags="0" EntityGUID="{7F02887A-CBF3-4CB2-85D8-6B27E6768C79}" EntityGUID_64="4CB2CBF37F02887A">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="87" Class="entity:SpawnPoint" pos="76,1494.7017,0" flags="0" EntityGUID="{88122C43-24FF-4701-ABAA-91291BDA4EB0}" EntityGUID_64="470124FF88122C43">
+       <Inputs entityId="0" Disable="0" Enable="0" Spawn="0"/>
+      </Node>
+      <Node Id="88" Name="Set_TOD" Class="_comment" pos="76,1594.7017,0" flags="0"/>
+      <Node Id="89" Name="Start_spawn" Class="_comment" pos="76,1464.7017,0" flags="0"/>
+      <Node Id="90" Name="Control_settings" Class="_comment" pos="76,1774.7017,0" flags="0"/>
+      <Node Id="91" Name="Fog_volume_settings_(old)" Class="_commentbox" pos="1806,1687.7089,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="920" Height="550"/>
+       <NodeSize Width="920" Height="605.44104"/>
+      </Node>
+      <Node Id="92" Name="Enable_volumetric_fog" Class="_comment" pos="1016,1484.7017,0" flags="0"/>
+      <Node Id="93" Name="HUD_hide_(cut)" Class="_comment" pos="1016,1614.7017,0" flags="0"/>
+      <Node Id="94" Class="Time:Delay" pos="19365.502,10898.686,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="95" Class="Game:Start" pos="19115.502,10948.686,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="96" Class="Math:BooleanTo" pos="20245.502,11208.686,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="97" Class="Time:Delay" pos="19305.502,10998.686,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="98" Class="entity:FogVolume" pos="2396,1954.7017,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" AO_Enabled="0" EV_Density="0" EV_DensityNoiseOffset="0" EV_DensityNoiseScale="0" EV_DensityNoiseTimeFrequency="0" EV_WindInfluence="0"/>
+      </Node>
+      <Node Id="99" Class="Logic:NOT" pos="2156,1794.7017,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="100" Class="Logic:Any" pos="2276,1834.7017,0" flags="0" InHideMask="1021" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="101" Class="Game:Start" pos="1866,1964.7017,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="102" Name="Sky_animation_(test)" Class="_commentbox" pos="1316,2512.2273,0" flags="0">
+       <Inputs TextSize="1" Color="0.181164,0.603827,0.879623" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1390" Height="1170"/>
+       <NodeSize Width="1390" Height="1225.441"/>
+      </Node>
+      <Node Id="103" Class="Time:Timer" pos="20575.502,11508.686,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="104" Class="entity:ProximityTrigger" pos="156,674.70166,0" flags="0" EntityGUID="{768C1FEC-A4CE-4744-8317-C6357EAC95FE}" EntityGUID_64="4744A4CE768C1FEC">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="105" Name="Start_scene" Class="_commentbox" pos="16,393.10858,0" flags="0">
+       <Inputs TextSize="1" Color="0.62396,0.564712,0.313989" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="950" Height="480"/>
+       <NodeSize Width="950" Height="535.44104"/>
+      </Node>
+      <Node Id="106" Class="Math:Mul" pos="20735.502,11608.686,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="107" Class="entity:FtEnemyBasic" pos="19181.063,12835.325,0" flags="0" EntityGUID="{AB63FFD4-B49F-4880-9904-2C7DF7FE3454}" EntityGUID_64="4880B49FAB63FFD4">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="108" Class="entity:SpawnPoint" pos="186,524.70166,0" flags="0" EntityGUID="{88122C43-24FF-4701-ABAA-91291BDA4EB0}" EntityGUID_64="470124FF88122C43">
+       <Inputs entityId="0" Disable="0" Enable="0" Spawn="0"/>
+      </Node>
+      <Node Id="109" Class="Entity:EntityId" pos="19561.063,13145.325,0" flags="0" EntityGUID="{65C747B9-2F2A-4FE4-AE64-587444E4E827}" EntityGUID_64="4FE42F2A65C747B9">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="110" Class="Debug:ConsoleVariable" pos="76,2264.7017,0" flags="0">
+       <Inputs CVar="g_pl_sprint_enable_csd " Value="0"/>
+      </Node>
+      <Node Id="111" Class="Debug:ConsoleVariable" pos="76,2364.7017,0" flags="0">
+       <Inputs CVar="g_pl_sprint_enable_csl " Value="0"/>
+      </Node>
+      <Node Id="112" Class="Movement:MoveEntityTo" pos="2226,2994.7017,0" flags="0" EntityGUID="{0CF0048E-92A8-4856-882F-2EFE70FB66BF}" EntityGUID_64="485692A80CF0048E">
+       <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="1" ValueType="0" Speed="10000" EaseDistance="0" EaseOutDistance="0" CoordSys="1"/>
+      </Node>
+      <Node Id="113" Class="Movement:MoveEntityTo" pos="2226,3224.7017,0" flags="0" EntityGUID="{412F7CD8-5381-469A-8D45-A171D6A167FF}" EntityGUID_64="469A5381412F7CD8">
+       <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="1" ValueType="0" Speed="10000" EaseDistance="0" EaseOutDistance="0" CoordSys="1"/>
+      </Node>
+      <Node Id="114" Class="Movement:MoveEntityTo" pos="2226,3444.7017,0" flags="0" EntityGUID="{8ADCB932-0168-4F8F-BFE7-43F0CF084AA3}" EntityGUID_64="4F8F01688ADCB932">
+       <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="1" ValueType="0" Speed="10000" EaseDistance="0" EaseOutDistance="0" CoordSys="1"/>
+      </Node>
+      <Node Id="115" Class="Camera:GetTransform" pos="1766,3334.7017,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="116" Class="Time:Timer" pos="1396,3374.7017,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="0"/>
+      </Node>
+      <Node Id="117" Class="entity:RigidBodyEx" pos="19811.063,12615.325,0" flags="0" EntityGUID="{46FA4D9B-4EF1-469D-A840-AC3C1B34EAF0}" EntityGUID_64="469D4EF146FA4D9B">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="118" Class="Vec3:Calculate" pos="2006,3064.7017,0" flags="0">
+       <Inputs Op="0" A="0,0,0" B="0,0,-1000"/>
+      </Node>
+      <Node Id="119" Class="Vec3:Calculate" pos="2016,3254.7017,0" flags="0">
+       <Inputs Op="0" A="0,0,0" B="0,0,-1100"/>
+      </Node>
+      <Node Id="120" Class="Vec3:Calculate" pos="2006,3434.7017,0" flags="0">
+       <Inputs Op="0" A="0,0,0" B="0,0,-1400"/>
+      </Node>
+      <Node Id="121" Class="Debug:ConsoleVariable" pos="546,504.70166,0" flags="0">
+       <Inputs CVar="pl_movement.speedScale" Value="0.5"/>
+      </Node>
+      <Node Id="122" Class="Debug:ConsoleVariable" pos="456,734.70166,0" flags="0">
+       <Inputs CVar="pl_movement.speedScale" Value="1"/>
+      </Node>
+      <Node Id="123" Class="entity:FogVolume" pos="396,4434.7017,0" flags="0" EntityGUID="{97D4239B-269E-47A6-B98D-DC2531ED87B8}" EntityGUID_64="47A6269E97D4239B">
+       <Inputs entityId="0" AO_Enabled="1" EV_Density="0" EV_DensityNoiseOffset="0" EV_DensityNoiseScale="0" EV_DensityNoiseTimeFrequency="0" EV_WindInfluence="0"/>
+      </Node>
+      <Node Id="124" Class="Entity:EntityId" pos="19127.814,6370.8228,0" flags="0" EntityGUID="{C952DD82-62B8-4C19-8E3E-473AD9B92C94}" EntityGUID_64="4C1962B8C952DD82">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="125" Class="Game:Start" pos="18857.814,6510.8228,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="126" Class="Math:BooleanTo" pos="19987.814,6770.8228,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="127" Class="Time:Delay" pos="19047.814,6560.8228,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="128" Class="Entity:Attachment" pos="19817.814,5880.8228,0" flags="0" EntityGUID="{4EAFFDE7-E845-40D3-A4A7-4A2CA6BF1116}" EntityGUID_64="40D3E8454EAFFDE7">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="129" Class="Physics:PhysicsEnable" pos="19627.814,6190.8228,0" flags="0" EntityGUID="{3C59521C-D393-4321-ACEE-6144CFAFF88B}" EntityGUID_64="4321D3933C59521C">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="130" Class="Time:Timer" pos="20317.814,7070.8228,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="131" Class="Physics:PhysicalObjectForcedSetZGravity" pos="20637.82,7106.375,0" flags="0" EntityGUID="{4EAFFDE7-E845-40D3-A4A7-4A2CA6BF1116}" EntityGUID_64="40D3E8454EAFFDE7">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="132" Class="Debug:Frame" pos="20337.814,7200.8228,0" flags="0"/>
+      <Node Id="133" Class="Math:Mul" pos="20477.814,7170.8228,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="134" Class="entity:FtEnemyBasic" pos="18920.602,8212.3945,0" flags="0" EntityGUID="{C209B93B-E352-40FC-9492-10AD4CA68314}" EntityGUID_64="40FCE352C209B93B">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="135" Class="Entity:Attachment" pos="19980.602,8542.3945,0" flags="0" EntityGUID="{C209B93B-E352-40FC-9492-10AD4CA68314}" EntityGUID_64="40FCE352C209B93B">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="136" Class="Entity:EntityId" pos="19300.602,8522.3945,0" flags="0" EntityGUID="{18FD3A4E-A4D2-43E4-B16C-973BE6C5F7B2}" EntityGUID_64="43E4A4D218FD3A4E">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="137" Class="Time:Delay" pos="19280.602,8612.3945,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="138" Class="Game:Start" pos="19030.602,8662.3945,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="139" Class="Math:BooleanTo" pos="20160.602,8922.3945,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="140" Class="Time:Delay" pos="19220.602,8712.3945,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="141" Class="Time:Delay" pos="19910.602,8782.3945,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="142" Class="Entity:EntityId" pos="19640.602,8572.3945,0" flags="0" EntityGUID="{7F02887A-CBF3-4CB2-85D8-6B27E6768C79}" EntityGUID_64="4CB2CBF37F02887A">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="143" Class="Entity:Attachment" pos="19990.602,8032.3945,0" flags="0" EntityGUID="{C209B93B-E352-40FC-9492-10AD4CA68314}" EntityGUID_64="40FCE352C209B93B">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="144" Class="Time:Timer" pos="20490.602,9222.3945,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="145" Class="Physics:PhysicalObjectForcedSetZGravity" pos="20810.607,9257.9473,0" flags="0" EntityGUID="{C209B93B-E352-40FC-9492-10AD4CA68314}" EntityGUID_64="40FCE352C209B93B">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="146" Class="Debug:Frame" pos="20510.602,9352.3945,0" flags="0"/>
+      <Node Id="147" Class="Math:Mul" pos="20650.602,9322.3945,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="148" Class="entity:FtEnemyBasic" pos="19005.502,10498.686,0" flags="0" EntityGUID="{9ADA65FA-1D0C-46E4-8244-A4235C5DA1EF}" EntityGUID_64="46E41D0C9ADA65FA">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="149" Class="Entity:Attachment" pos="20065.502,10828.686,0" flags="0" EntityGUID="{9ADA65FA-1D0C-46E4-8244-A4235C5DA1EF}" EntityGUID_64="46E41D0C9ADA65FA">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="150" Class="Entity:EntityId" pos="19385.502,10808.686,0" flags="0" EntityGUID="{7B5524FF-D4EB-4084-A1C7-3AD8F0D390CB}" EntityGUID_64="4084D4EB7B5524FF">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="151" Class="Time:Delay" pos="19995.502,11068.686,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="152" Class="Entity:EntityId" pos="19725.502,10858.686,0" flags="0" EntityGUID="{311DB14A-B209-4ABE-8D78-A73F16C3BB5A}" EntityGUID_64="4ABEB209311DB14A">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="153" Class="Entity:Attachment" pos="20075.502,10318.686,0" flags="0" EntityGUID="{9ADA65FA-1D0C-46E4-8244-A4235C5DA1EF}" EntityGUID_64="46E41D0C9ADA65FA">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="154" Class="entity:RigidBodyEx" pos="19635.502,10278.686,0" flags="0" EntityGUID="{311DB14A-B209-4ABE-8D78-A73F16C3BB5A}" EntityGUID_64="4ABEB209311DB14A">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="155" Class="Physics:PhysicsEnable" pos="19885.502,10628.686,0" flags="0" EntityGUID="{311DB14A-B209-4ABE-8D78-A73F16C3BB5A}" EntityGUID_64="4ABEB209311DB14A">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="156" Class="Physics:PhysicalObjectForcedSetZGravity" pos="20895.51,11544.238,0" flags="0" EntityGUID="{9ADA65FA-1D0C-46E4-8244-A4235C5DA1EF}" EntityGUID_64="46E41D0C9ADA65FA">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="157" Class="Debug:Frame" pos="20595.502,11638.686,0" flags="0"/>
+      <Node Id="158" Class="Entity:Attachment" pos="20241.063,13165.325,0" flags="0" EntityGUID="{AB63FFD4-B49F-4880-9904-2C7DF7FE3454}" EntityGUID_64="4880B49FAB63FFD4">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="159" Class="Time:Delay" pos="19541.063,13235.324,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="160" Class="Game:Start" pos="19291.063,13285.324,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="161" Class="Math:BooleanTo" pos="20421.063,13545.324,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="162" Class="Time:Delay" pos="19481.063,13335.324,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="163" Class="Time:Delay" pos="20171.063,13405.324,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="164" Class="Entity:EntityId" pos="19901.063,13195.325,0" flags="0" EntityGUID="{46FA4D9B-4EF1-469D-A840-AC3C1B34EAF0}" EntityGUID_64="469D4EF146FA4D9B">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="165" Class="Entity:Attachment" pos="20251.063,12655.325,0" flags="0" EntityGUID="{AB63FFD4-B49F-4880-9904-2C7DF7FE3454}" EntityGUID_64="4880B49FAB63FFD4">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="166" Class="Physics:PhysicsEnable" pos="20061.063,12965.325,0" flags="0" EntityGUID="{46FA4D9B-4EF1-469D-A840-AC3C1B34EAF0}" EntityGUID_64="469D4EF146FA4D9B">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="167" Class="Time:Timer" pos="20751.063,13845.324,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="168" Class="Physics:PhysicalObjectForcedSetZGravity" pos="21071.07,13880.877,0" flags="0" EntityGUID="{AB63FFD4-B49F-4880-9904-2C7DF7FE3454}" EntityGUID_64="4880B49FAB63FFD4">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="169" Class="Debug:Frame" pos="20771.063,13975.324,0" flags="0"/>
+      <Node Id="170" Class="Math:Mul" pos="20911.063,13945.324,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="171" Class="entity:FtEnemyBasic" pos="21592.129,6117.6865,0" flags="0" EntityGUID="{3ADD5DF4-E64B-44C5-BF98-26E0D46BA596}" EntityGUID_64="44C5E64B3ADD5DF4">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="172" Class="Entity:Attachment" pos="22652.129,6447.6865,0" flags="0" EntityGUID="{3ADD5DF4-E64B-44C5-BF98-26E0D46BA596}" EntityGUID_64="44C5E64B3ADD5DF4">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="173" Class="Entity:EntityId" pos="21972.129,6427.6865,0" flags="0" EntityGUID="{1E81A19E-CA8C-4069-BAB0-F5E7AFE9397A}" EntityGUID_64="4069CA8C1E81A19E">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="174" Class="Time:Delay" pos="21952.129,6517.6865,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="175" Class="Game:Start" pos="21702.129,6567.6865,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="176" Class="Math:BooleanTo" pos="22832.129,6827.6865,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="177" Class="Time:Delay" pos="21892.129,6617.6865,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="178" Class="Time:Delay" pos="22582.129,6687.6865,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="179" Class="Entity:EntityId" pos="22312.129,6477.6865,0" flags="0" EntityGUID="{AC80A1C0-65F9-4F62-BB0D-AEC65AFDB437}" EntityGUID_64="4F6265F9AC80A1C0">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="180" Class="Entity:Attachment" pos="22662.129,5937.6865,0" flags="0" EntityGUID="{3ADD5DF4-E64B-44C5-BF98-26E0D46BA596}" EntityGUID_64="44C5E64B3ADD5DF4">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="181" Class="entity:RigidBodyEx" pos="22222.129,5897.6865,0" flags="0" EntityGUID="{AC80A1C0-65F9-4F62-BB0D-AEC65AFDB437}" EntityGUID_64="4F6265F9AC80A1C0">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="182" Class="Physics:PhysicsEnable" pos="22472.129,6247.6865,0" flags="0" EntityGUID="{AC80A1C0-65F9-4F62-BB0D-AEC65AFDB437}" EntityGUID_64="4F6265F9AC80A1C0">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="183" Class="Time:Timer" pos="23162.129,7127.6865,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="184" Class="Physics:PhysicalObjectForcedSetZGravity" pos="23482.137,7163.2383,0" flags="0" EntityGUID="{3ADD5DF4-E64B-44C5-BF98-26E0D46BA596}" EntityGUID_64="44C5E64B3ADD5DF4">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="185" Class="Debug:Frame" pos="23182.129,7257.6865,0" flags="0"/>
+      <Node Id="186" Class="Math:Mul" pos="23322.129,7227.6865,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="187" Class="entity:FtEnemyBasic" pos="21767.814,8270.8223,0" flags="0" EntityGUID="{1E39D2EE-4D7D-4A6C-A7C6-BA39B9A212EC}" EntityGUID_64="4A6C4D7D1E39D2EE">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="188" Class="Entity:Attachment" pos="22827.814,8600.8223,0" flags="0" EntityGUID="{1E39D2EE-4D7D-4A6C-A7C6-BA39B9A212EC}" EntityGUID_64="4A6C4D7D1E39D2EE">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="189" Class="Entity:EntityId" pos="22144.916,8579.2578,0" flags="0" EntityGUID="{A5518069-0F15-42B8-8302-1E5A26846B49}" EntityGUID_64="42B80F15A5518069">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="190" Class="Time:Delay" pos="22124.916,8669.2578,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="191" Class="Game:Start" pos="21874.916,8719.2578,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="192" Class="Math:BooleanTo" pos="23004.916,8979.2578,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="193" Class="Time:Delay" pos="22064.916,8769.2578,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="194" Class="Time:Delay" pos="22754.916,8839.2578,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="195" Class="Entity:EntityId" pos="22484.916,8629.2578,0" flags="0" EntityGUID="{15E1B0D2-CA26-4BB2-85D2-93A61406133A}" EntityGUID_64="4BB2CA2615E1B0D2">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="196" Class="Entity:Attachment" pos="22837.814,8090.8228,0" flags="0" EntityGUID="{1E39D2EE-4D7D-4A6C-A7C6-BA39B9A212EC}" EntityGUID_64="4A6C4D7D1E39D2EE">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="197" Class="entity:RigidBodyEx" pos="22394.916,8049.2583,0" flags="0" EntityGUID="{15E1B0D2-CA26-4BB2-85D2-93A61406133A}" EntityGUID_64="4BB2CA2615E1B0D2">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="198" Class="Physics:PhysicsEnable" pos="22644.916,8399.2578,0" flags="0" EntityGUID="{15E1B0D2-CA26-4BB2-85D2-93A61406133A}" EntityGUID_64="4BB2CA2615E1B0D2">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="199" Class="Time:Timer" pos="23334.916,9279.2578,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="200" Class="Physics:PhysicalObjectForcedSetZGravity" pos="23654.922,9314.8105,0" flags="0" EntityGUID="{1E39D2EE-4D7D-4A6C-A7C6-BA39B9A212EC}" EntityGUID_64="4A6C4D7D1E39D2EE">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="201" Class="Debug:Frame" pos="23354.916,9409.2578,0" flags="0"/>
+      <Node Id="202" Class="Math:Mul" pos="23494.916,9379.2578,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="203" Class="entity:FtEnemyBasic" pos="21849.818,10555.549,0" flags="0" EntityGUID="{63451B66-E563-4F02-8664-18C9EFD2AA40}" EntityGUID_64="4F02E56363451B66">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="204" Class="Entity:Attachment" pos="22909.818,10885.549,0" flags="0" EntityGUID="{63451B66-E563-4F02-8664-18C9EFD2AA40}" EntityGUID_64="4F02E56363451B66">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="205" Class="Entity:EntityId" pos="22229.818,10865.549,0" flags="0" EntityGUID="{4D306690-651E-4C3B-813E-0F199A016F68}" EntityGUID_64="4C3B651E4D306690">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="206" Class="Time:Delay" pos="22209.818,10955.549,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="207" Class="Game:Start" pos="21959.818,11005.549,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="208" Class="Math:BooleanTo" pos="23089.818,11265.549,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="209" Class="Time:Delay" pos="22149.818,11055.549,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="210" Class="Time:Delay" pos="22839.818,11125.549,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="211" Class="Entity:EntityId" pos="22569.818,10915.549,0" flags="0" EntityGUID="{976C7617-08FD-4F55-9DB1-6BED2DCB1278}" EntityGUID_64="4F5508FD976C7617">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="212" Class="Entity:Attachment" pos="22919.818,10375.549,0" flags="0" EntityGUID="{63451B66-E563-4F02-8664-18C9EFD2AA40}" EntityGUID_64="4F02E56363451B66">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="213" Class="entity:RigidBodyEx" pos="22479.818,10335.549,0" flags="0" EntityGUID="{976C7617-08FD-4F55-9DB1-6BED2DCB1278}" EntityGUID_64="4F5508FD976C7617">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="214" Class="Physics:PhysicsEnable" pos="22729.818,10685.549,0" flags="0" EntityGUID="{976C7617-08FD-4F55-9DB1-6BED2DCB1278}" EntityGUID_64="4F5508FD976C7617">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="215" Class="Time:Timer" pos="23419.818,11565.549,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="216" Class="Physics:PhysicalObjectForcedSetZGravity" pos="23739.824,11601.102,0" flags="0" EntityGUID="{63451B66-E563-4F02-8664-18C9EFD2AA40}" EntityGUID_64="4F02E56363451B66">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="217" Class="Debug:Frame" pos="23439.818,11695.549,0" flags="0"/>
+      <Node Id="218" Class="Math:Mul" pos="23579.818,11665.549,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="219" Class="entity:FtEnemyBasic" pos="22025.379,12892.189,0" flags="0" EntityGUID="{E1CC6BA6-9221-49A2-9E98-A5F22A74E843}" EntityGUID_64="49A29221E1CC6BA6">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="220" Class="Entity:Attachment" pos="23085.379,13222.189,0" flags="0" EntityGUID="{E1CC6BA6-9221-49A2-9E98-A5F22A74E843}" EntityGUID_64="49A29221E1CC6BA6">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="221" Class="Entity:EntityId" pos="22405.379,13202.189,0" flags="0" EntityGUID="{A5D7AC1B-ACEB-4FB3-8E1E-7004616409ED}" EntityGUID_64="4FB3ACEBA5D7AC1B">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="222" Class="Time:Delay" pos="22385.379,13292.188,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="223" Class="Game:Start" pos="22135.379,13342.188,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="224" Class="Math:BooleanTo" pos="23265.379,13602.188,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="225" Class="Time:Delay" pos="22325.379,13392.188,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="226" Class="Time:Delay" pos="23015.379,13462.188,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="227" Class="Entity:EntityId" pos="22745.379,13252.189,0" flags="0" EntityGUID="{3ADC4F97-63D7-4683-AC4C-3ED7550343E8}" EntityGUID_64="468363D73ADC4F97">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="228" Class="Entity:Attachment" pos="23095.379,12712.189,0" flags="0" EntityGUID="{E1CC6BA6-9221-49A2-9E98-A5F22A74E843}" EntityGUID_64="49A29221E1CC6BA6">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="229" Class="entity:RigidBodyEx" pos="22655.379,12672.189,0" flags="0" EntityGUID="{3ADC4F97-63D7-4683-AC4C-3ED7550343E8}" EntityGUID_64="468363D73ADC4F97">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="230" Class="Physics:PhysicsEnable" pos="22905.379,13022.189,0" flags="0" EntityGUID="{3ADC4F97-63D7-4683-AC4C-3ED7550343E8}" EntityGUID_64="468363D73ADC4F97">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="231" Class="Time:Timer" pos="23595.379,13902.188,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="232" Class="Physics:PhysicalObjectForcedSetZGravity" pos="23915.385,13937.74,0" flags="0" EntityGUID="{E1CC6BA6-9221-49A2-9E98-A5F22A74E843}" EntityGUID_64="49A29221E1CC6BA6">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="233" Class="Debug:Frame" pos="23615.379,14032.188,0" flags="0"/>
+      <Node Id="234" Class="Math:Mul" pos="23755.379,14002.188,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="251" Class="entity:FtEnemyBasic" pos="24441.938,6202,0" flags="0" EntityGUID="{7E088185-AE30-4D87-A9F8-F7EBD4E53149}" EntityGUID_64="4D87AE307E088185">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="252" Class="Entity:Attachment" pos="25501.938,6532,0" flags="0" EntityGUID="{7E088185-AE30-4D87-A9F8-F7EBD4E53149}" EntityGUID_64="4D87AE307E088185">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="253" Class="Entity:EntityId" pos="24821.938,6512,0" flags="0" EntityGUID="{34B96F65-99EC-4D4F-BDC1-F9952C65BA84}" EntityGUID_64="4D4F99EC34B96F65">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="254" Class="Time:Delay" pos="24801.938,6602,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="255" Class="Game:Start" pos="24551.938,6652,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="256" Class="Math:BooleanTo" pos="25681.938,6912,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="257" Class="Time:Delay" pos="24741.938,6702,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="258" Class="Time:Delay" pos="25431.938,6772,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="259" Class="Entity:EntityId" pos="25161.938,6562,0" flags="0" EntityGUID="{65073B0A-8BF2-4E4C-8ECA-08783C26D3A8}" EntityGUID_64="4E4C8BF265073B0A">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="260" Class="Entity:Attachment" pos="25511.938,6022,0" flags="0" EntityGUID="{7E088185-AE30-4D87-A9F8-F7EBD4E53149}" EntityGUID_64="4D87AE307E088185">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="261" Class="entity:RigidBodyEx" pos="25071.938,5982,0" flags="0" EntityGUID="{65073B0A-8BF2-4E4C-8ECA-08783C26D3A8}" EntityGUID_64="4E4C8BF265073B0A">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="262" Class="Physics:PhysicsEnable" pos="25321.938,6332,0" flags="0" EntityGUID="{65073B0A-8BF2-4E4C-8ECA-08783C26D3A8}" EntityGUID_64="4E4C8BF265073B0A">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="263" Class="Time:Timer" pos="26011.938,7212,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="264" Class="Physics:PhysicalObjectForcedSetZGravity" pos="26337.814,7250.8228,0" flags="0" EntityGUID="{7E088185-AE30-4D87-A9F8-F7EBD4E53149}" EntityGUID_64="4D87AE307E088185">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="265" Class="Debug:Frame" pos="26031.938,7342,0" flags="0"/>
+      <Node Id="266" Class="Math:Mul" pos="26171.938,7312,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="267" Class="entity:FtEnemyBasic" pos="24614.723,8353.5723,0" flags="0" EntityGUID="{38591C24-A038-4A54-842A-F19125E8A5C3}" EntityGUID_64="4A54A03838591C24">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="268" Class="Entity:Attachment" pos="25674.723,8683.5723,0" flags="0" EntityGUID="{38591C24-A038-4A54-842A-F19125E8A5C3}" EntityGUID_64="4A54A03838591C24">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="269" Class="Entity:EntityId" pos="24994.723,8663.5723,0" flags="0" EntityGUID="{D492BB45-CE0E-429C-BE76-E6577E37E647}" EntityGUID_64="429CCE0ED492BB45">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="270" Class="Time:Delay" pos="24974.723,8753.5723,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="271" Class="Game:Start" pos="24724.723,8803.5723,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="272" Class="Math:BooleanTo" pos="25854.723,9063.5723,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="273" Class="Time:Delay" pos="24914.723,8853.5723,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="274" Class="Time:Delay" pos="25604.723,8923.5723,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="275" Class="Entity:EntityId" pos="25334.723,8713.5723,0" flags="0" EntityGUID="{7A811158-92D2-4D22-99F4-CC87FC8F7453}" EntityGUID_64="4D2292D27A811158">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="276" Class="Entity:Attachment" pos="25684.723,8173.5723,0" flags="0" EntityGUID="{38591C24-A038-4A54-842A-F19125E8A5C3}" EntityGUID_64="4A54A03838591C24">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="277" Class="entity:RigidBodyEx" pos="25244.723,8133.5723,0" flags="0" EntityGUID="{7A811158-92D2-4D22-99F4-CC87FC8F7453}" EntityGUID_64="4D2292D27A811158">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="278" Class="Physics:PhysicsEnable" pos="25494.723,8483.5723,0" flags="0" EntityGUID="{7A811158-92D2-4D22-99F4-CC87FC8F7453}" EntityGUID_64="4D2292D27A811158">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="279" Class="Time:Timer" pos="26184.723,9363.5723,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="280" Class="Physics:PhysicalObjectForcedSetZGravity" pos="26504.73,9399.125,0" flags="0" EntityGUID="{38591C24-A038-4A54-842A-F19125E8A5C3}" EntityGUID_64="4A54A03838591C24">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="281" Class="Debug:Frame" pos="26204.723,9493.5723,0" flags="0"/>
+      <Node Id="282" Class="Math:Mul" pos="26344.723,9463.5723,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="283" Class="entity:FtEnemyBasic" pos="24699.625,10639.863,0" flags="0" EntityGUID="{504B713F-7100-4D38-A752-DADB9929CEC5}" EntityGUID_64="4D387100504B713F">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="284" Class="Entity:Attachment" pos="25759.625,10969.863,0" flags="0" EntityGUID="{504B713F-7100-4D38-A752-DADB9929CEC5}" EntityGUID_64="4D387100504B713F">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="285" Class="Entity:EntityId" pos="25079.625,10949.863,0" flags="0" EntityGUID="{667F84BC-AFC2-41A4-9C7B-A23AEEF0D16E}" EntityGUID_64="41A4AFC2667F84BC">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="286" Class="Time:Delay" pos="25059.625,11039.863,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="287" Class="Game:Start" pos="24809.625,11089.863,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="288" Class="Math:BooleanTo" pos="25939.625,11349.863,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="289" Class="Time:Delay" pos="24999.625,11139.863,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="290" Class="Time:Delay" pos="25689.625,11209.863,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="291" Class="Entity:EntityId" pos="25419.625,10999.863,0" flags="0" EntityGUID="{741D1161-1BAD-4F37-A002-E40535CFE344}" EntityGUID_64="4F371BAD741D1161">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="292" Class="Entity:Attachment" pos="25769.625,10459.863,0" flags="0" EntityGUID="{504B713F-7100-4D38-A752-DADB9929CEC5}" EntityGUID_64="4D387100504B713F">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="293" Class="entity:RigidBodyEx" pos="25329.625,10419.863,0" flags="0" EntityGUID="{741D1161-1BAD-4F37-A002-E40535CFE344}" EntityGUID_64="4F371BAD741D1161">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="294" Class="Physics:PhysicsEnable" pos="25579.625,10769.863,0" flags="0" EntityGUID="{741D1161-1BAD-4F37-A002-E40535CFE344}" EntityGUID_64="4F371BAD741D1161">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="295" Class="Time:Timer" pos="26269.625,11649.863,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="296" Class="Physics:PhysicalObjectForcedSetZGravity" pos="26589.633,11685.416,0" flags="0" EntityGUID="{504B713F-7100-4D38-A752-DADB9929CEC5}" EntityGUID_64="4D387100504B713F">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="297" Class="Debug:Frame" pos="26289.625,11779.863,0" flags="0"/>
+      <Node Id="298" Class="Math:Mul" pos="26429.625,11749.863,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="299" Class="entity:FtEnemyBasic" pos="24877.814,12970.822,0" flags="0" EntityGUID="{8E18F24B-1865-44A1-A900-45B7CB9582B3}" EntityGUID_64="44A118658E18F24B">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="300" Class="Entity:Attachment" pos="25935.186,13306.502,0" flags="0" EntityGUID="{8E18F24B-1865-44A1-A900-45B7CB9582B3}" EntityGUID_64="44A118658E18F24B">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="301" Class="Entity:EntityId" pos="25255.186,13286.502,0" flags="0" EntityGUID="{70E475FF-D11E-40E7-980B-BB2925ECE997}" EntityGUID_64="40E7D11E70E475FF">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="302" Class="Time:Delay" pos="25235.186,13376.502,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="303" Class="Game:Start" pos="24985.186,13426.502,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="304" Class="Math:BooleanTo" pos="26115.186,13686.502,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="305" Class="Time:Delay" pos="25175.186,13476.502,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="306" Class="Time:Delay" pos="25865.186,13546.502,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="307" Class="Entity:EntityId" pos="25595.186,13336.502,0" flags="0" EntityGUID="{82FC5B89-0F63-48E9-817E-34A6A65E8503}" EntityGUID_64="48E90F6382FC5B89">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="308" Class="Entity:Attachment" pos="25947.814,12790.822,0" flags="0" EntityGUID="{8E18F24B-1865-44A1-A900-45B7CB9582B3}" EntityGUID_64="44A118658E18F24B">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="309" Class="entity:RigidBodyEx" pos="25505.186,12756.502,0" flags="0" EntityGUID="{82FC5B89-0F63-48E9-817E-34A6A65E8503}" EntityGUID_64="48E90F6382FC5B89">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="310" Class="Physics:PhysicsEnable" pos="25755.186,13106.502,0" flags="0" EntityGUID="{82FC5B89-0F63-48E9-817E-34A6A65E8503}" EntityGUID_64="48E90F6382FC5B89">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="311" Class="Time:Timer" pos="26445.186,13986.502,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="312" Class="Physics:PhysicalObjectForcedSetZGravity" pos="26765.191,14022.055,0" flags="0" EntityGUID="{8E18F24B-1865-44A1-A900-45B7CB9582B3}" EntityGUID_64="44A118658E18F24B">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="313" Class="Debug:Frame" pos="26465.186,14116.502,0" flags="0"/>
+      <Node Id="314" Class="Math:Mul" pos="26605.186,14086.502,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="315" Class="entity:FtEnemyBasic" pos="27342.332,7112.5894,0" flags="0" EntityGUID="{097A5637-FA58-4F0A-8ECE-A25908508C14}" EntityGUID_64="4F0AFA58097A5637">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="316" Class="Entity:Attachment" pos="28402.332,7442.5894,0" flags="0" EntityGUID="{097A5637-FA58-4F0A-8ECE-A25908508C14}" EntityGUID_64="4F0AFA58097A5637">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="317" Class="Entity:EntityId" pos="27722.332,7422.5894,0" flags="0" EntityGUID="{B1EB66C7-9B16-47AB-80D5-C381845B1EE8}" EntityGUID_64="47AB9B16B1EB66C7">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="318" Class="Time:Delay" pos="27702.332,7512.5894,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="319" Class="Game:Start" pos="27452.332,7562.5894,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="320" Class="Math:BooleanTo" pos="28582.332,7822.5894,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="321" Class="Time:Delay" pos="27642.332,7612.5894,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="322" Class="Time:Delay" pos="28332.332,7682.5894,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="323" Class="Entity:EntityId" pos="28062.332,7472.5894,0" flags="0" EntityGUID="{63491B3D-53A9-4C66-84C6-C6EBE7ED0819}" EntityGUID_64="4C6653A963491B3D">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="324" Class="Entity:Attachment" pos="28412.332,6932.5894,0" flags="0" EntityGUID="{097A5637-FA58-4F0A-8ECE-A25908508C14}" EntityGUID_64="4F0AFA58097A5637">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="325" Class="entity:RigidBodyEx" pos="27972.332,6892.5894,0" flags="0" EntityGUID="{63491B3D-53A9-4C66-84C6-C6EBE7ED0819}" EntityGUID_64="4C6653A963491B3D">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="326" Class="Physics:PhysicsEnable" pos="28222.332,7242.5894,0" flags="0" EntityGUID="{63491B3D-53A9-4C66-84C6-C6EBE7ED0819}" EntityGUID_64="4C6653A963491B3D">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="327" Class="Time:Timer" pos="28912.332,8122.5894,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="328" Class="Physics:PhysicalObjectForcedSetZGravity" pos="29232.34,8158.1416,0" flags="0" EntityGUID="{097A5637-FA58-4F0A-8ECE-A25908508C14}" EntityGUID_64="4F0AFA58097A5637">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="329" Class="Debug:Frame" pos="28932.332,8252.5898,0" flags="0"/>
+      <Node Id="330" Class="Math:Mul" pos="29072.332,8222.5898,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="331" Class="entity:FtEnemyBasic" pos="27515.117,9264.1611,0" flags="0" EntityGUID="{97A11EE3-C6D1-44AE-B7E0-37038F1F081B}" EntityGUID_64="44AEC6D197A11EE3">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="332" Class="Entity:Attachment" pos="28575.117,9594.1611,0" flags="0" EntityGUID="{97A11EE3-C6D1-44AE-B7E0-37038F1F081B}" EntityGUID_64="44AEC6D197A11EE3">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="333" Class="Entity:EntityId" pos="27895.117,9574.1611,0" flags="0" EntityGUID="{B851C6FD-F2BF-4E5C-A68D-5A2B687D540A}" EntityGUID_64="4E5CF2BFB851C6FD">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="334" Class="Time:Delay" pos="27875.117,9664.1611,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="335" Class="Game:Start" pos="27625.117,9714.1611,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="336" Class="Math:BooleanTo" pos="28755.117,9974.1611,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="337" Class="Time:Delay" pos="27815.117,9764.1611,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="338" Class="Time:Delay" pos="28505.117,9834.1611,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="339" Class="Entity:EntityId" pos="28235.117,9624.1611,0" flags="0" EntityGUID="{98D276D4-C9EA-4070-95C3-C87CCFBF49DC}" EntityGUID_64="4070C9EA98D276D4">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="340" Class="Entity:Attachment" pos="28585.117,9084.1611,0" flags="0" EntityGUID="{97A11EE3-C6D1-44AE-B7E0-37038F1F081B}" EntityGUID_64="44AEC6D197A11EE3">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="341" Class="entity:RigidBodyEx" pos="28145.117,9044.1611,0" flags="0" EntityGUID="{98D276D4-C9EA-4070-95C3-C87CCFBF49DC}" EntityGUID_64="4070C9EA98D276D4">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="342" Class="Physics:PhysicsEnable" pos="28395.117,9394.1611,0" flags="0" EntityGUID="{98D276D4-C9EA-4070-95C3-C87CCFBF49DC}" EntityGUID_64="4070C9EA98D276D4">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="343" Class="Time:Timer" pos="29085.117,10274.161,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="344" Class="Physics:PhysicalObjectForcedSetZGravity" pos="29405.125,10309.713,0" flags="0" EntityGUID="{97A11EE3-C6D1-44AE-B7E0-37038F1F081B}" EntityGUID_64="44AEC6D197A11EE3">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="345" Class="Debug:Frame" pos="29105.117,10404.161,0" flags="0"/>
+      <Node Id="346" Class="Math:Mul" pos="29245.117,10374.161,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="347" Class="entity:FtEnemyBasic" pos="27600.02,11550.452,0" flags="0" EntityGUID="{15620981-8E30-4029-9D99-DC7508B8FC84}" EntityGUID_64="40298E3015620981">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="348" Class="Entity:Attachment" pos="28660.02,11880.452,0" flags="0" EntityGUID="{15620981-8E30-4029-9D99-DC7508B8FC84}" EntityGUID_64="40298E3015620981">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="349" Class="Entity:EntityId" pos="27980.02,11860.452,0" flags="0" EntityGUID="{46F65FF1-7936-4920-BC81-B00CF4EFC5C4}" EntityGUID_64="4920793646F65FF1">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="350" Class="Time:Delay" pos="27960.02,11950.452,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="351" Class="Game:Start" pos="27710.02,12000.452,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="352" Class="Math:BooleanTo" pos="28840.02,12260.452,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="353" Class="Time:Delay" pos="27900.02,12050.452,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="354" Class="Time:Delay" pos="28590.02,12120.452,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="355" Class="Entity:EntityId" pos="28317.814,11910.822,0" flags="0" EntityGUID="{F4323827-39C4-456C-9081-C6222914BDAE}" EntityGUID_64="456C39C4F4323827">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="356" Class="Entity:Attachment" pos="28670.02,11370.452,0" flags="0" EntityGUID="{15620981-8E30-4029-9D99-DC7508B8FC84}" EntityGUID_64="40298E3015620981">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="357" Class="entity:RigidBodyEx" pos="28230.02,11330.452,0" flags="0" EntityGUID="{F4323827-39C4-456C-9081-C6222914BDAE}" EntityGUID_64="456C39C4F4323827">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="358" Class="Physics:PhysicsEnable" pos="28477.814,11680.822,0" flags="0" EntityGUID="{F4323827-39C4-456C-9081-C6222914BDAE}" EntityGUID_64="456C39C4F4323827">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="359" Class="Time:Timer" pos="29170.02,12560.452,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="360" Class="Physics:PhysicalObjectForcedSetZGravity" pos="29490.027,12596.004,0" flags="0" EntityGUID="{15620981-8E30-4029-9D99-DC7508B8FC84}" EntityGUID_64="40298E3015620981">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="361" Class="Debug:Frame" pos="29190.02,12690.452,0" flags="0"/>
+      <Node Id="362" Class="Math:Mul" pos="29330.02,12660.452,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="363" Class="entity:FtEnemyBasic" pos="27777.814,13880.822,0" flags="0" EntityGUID="{B09A232D-654D-43DF-B897-871167EAEB49}" EntityGUID_64="43DF654DB09A232D">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="364" Class="Entity:Attachment" pos="28837.814,14210.822,0" flags="0" EntityGUID="{B09A232D-654D-43DF-B897-871167EAEB49}" EntityGUID_64="43DF654DB09A232D">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="365" Class="Entity:EntityId" pos="28157.814,14200.822,0" flags="0" EntityGUID="{1EA5C29C-76F2-472C-AB23-0EB3812BAA1F}" EntityGUID_64="472C76F21EA5C29C">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="366" Class="Time:Delay" pos="28135.582,14287.092,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="367" Class="Game:Start" pos="27885.582,14337.092,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="368" Class="Math:BooleanTo" pos="29015.582,14597.092,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="369" Class="Time:Delay" pos="28075.582,14387.092,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="370" Class="Time:Delay" pos="28765.582,14457.092,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="371" Class="Entity:EntityId" pos="28495.582,14247.092,0" flags="0" EntityGUID="{EBB34254-9747-4C6D-B77A-2988F03E2AB5}" EntityGUID_64="4C6D9747EBB34254">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="372" Class="Entity:Attachment" pos="28845.582,13707.092,0" flags="0" EntityGUID="{B09A232D-654D-43DF-B897-871167EAEB49}" EntityGUID_64="43DF654DB09A232D">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="373" Class="entity:RigidBodyEx" pos="28405.582,13667.092,0" flags="0" EntityGUID="{EBB34254-9747-4C6D-B77A-2988F03E2AB5}" EntityGUID_64="4C6D9747EBB34254">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="374" Class="Physics:PhysicsEnable" pos="28655.582,14017.092,0" flags="0" EntityGUID="{EBB34254-9747-4C6D-B77A-2988F03E2AB5}" EntityGUID_64="4C6D9747EBB34254">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="375" Class="Time:Timer" pos="29345.582,14897.092,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="376" Class="Physics:PhysicalObjectForcedSetZGravity" pos="29665.588,14932.645,0" flags="0" EntityGUID="{B09A232D-654D-43DF-B897-871167EAEB49}" EntityGUID_64="43DF654DB09A232D">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="377" Class="Debug:Frame" pos="29365.582,15027.092,0" flags="0"/>
+      <Node Id="378" Class="Math:Mul" pos="29505.582,14997.092,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="379" Class="entity:FtEnemyBasic" pos="31119.59,8613.375,0" flags="0" EntityGUID="{D818DE3B-94D9-4DF1-9A9D-1DF44ED538BD}" EntityGUID_64="4DF194D9D818DE3B">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="380" Class="Entity:Attachment" pos="32179.59,8943.375,0" flags="0" EntityGUID="{D818DE3B-94D9-4DF1-9A9D-1DF44ED538BD}" EntityGUID_64="4DF194D9D818DE3B">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="381" Class="Entity:EntityId" pos="31499.59,8923.375,0" flags="0" EntityGUID="{31075741-9B3A-4819-8822-2D45448AC5BA}" EntityGUID_64="48199B3A31075741">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="382" Class="Time:Delay" pos="31479.59,9013.375,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="383" Class="Game:Start" pos="31229.59,9063.375,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="384" Class="Math:BooleanTo" pos="32359.59,9323.375,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="385" Class="Time:Delay" pos="31419.59,9113.375,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="386" Class="Time:Delay" pos="32109.59,9183.375,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="387" Class="Entity:EntityId" pos="31839.59,8973.375,0" flags="0" EntityGUID="{7AFF5B19-3ADB-445C-AEC9-7F48FD4BC6A8}" EntityGUID_64="445C3ADB7AFF5B19">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="388" Class="Entity:Attachment" pos="32189.59,8433.375,0" flags="0" EntityGUID="{D818DE3B-94D9-4DF1-9A9D-1DF44ED538BD}" EntityGUID_64="4DF194D9D818DE3B">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="389" Class="entity:RigidBodyEx" pos="31749.59,8393.375,0" flags="0" EntityGUID="{7AFF5B19-3ADB-445C-AEC9-7F48FD4BC6A8}" EntityGUID_64="445C3ADB7AFF5B19">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="390" Class="Physics:PhysicsEnable" pos="31999.59,8743.375,0" flags="0" EntityGUID="{7AFF5B19-3ADB-445C-AEC9-7F48FD4BC6A8}" EntityGUID_64="445C3ADB7AFF5B19">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="391" Class="Time:Timer" pos="32689.59,9623.375,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="392" Class="Physics:PhysicalObjectForcedSetZGravity" pos="33009.598,9658.9277,0" flags="0" EntityGUID="{D818DE3B-94D9-4DF1-9A9D-1DF44ED538BD}" EntityGUID_64="4DF194D9D818DE3B">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="393" Class="Debug:Frame" pos="32709.59,9753.375,0" flags="0"/>
+      <Node Id="394" Class="Math:Mul" pos="32849.59,9723.375,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="395" Class="entity:FtEnemyBasic" pos="31292.379,10764.947,0" flags="0" EntityGUID="{A8ECE2B2-533E-4BA5-BDE2-7B318D914114}" EntityGUID_64="4BA5533EA8ECE2B2">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="396" Class="Entity:Attachment" pos="32352.379,11094.947,0" flags="0" EntityGUID="{A8ECE2B2-533E-4BA5-BDE2-7B318D914114}" EntityGUID_64="4BA5533EA8ECE2B2">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="397" Class="Entity:EntityId" pos="31672.379,11074.947,0" flags="0" EntityGUID="{6CEF32A1-6B9F-4E87-AC88-4D4086AC83E2}" EntityGUID_64="4E876B9F6CEF32A1">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="398" Class="Time:Delay" pos="31652.379,11164.947,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="399" Class="Game:Start" pos="31402.379,11214.947,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="400" Class="Math:BooleanTo" pos="32532.379,11474.947,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="401" Class="Time:Delay" pos="31592.379,11264.947,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="402" Class="Time:Delay" pos="32282.379,11334.947,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="403" Class="Entity:EntityId" pos="32012.379,11124.947,0" flags="0" EntityGUID="{91A8B914-BD43-4A2E-BDDA-5BBD516CF15B}" EntityGUID_64="4A2EBD4391A8B914">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="404" Class="Entity:Attachment" pos="32362.379,10584.947,0" flags="0" EntityGUID="{A8ECE2B2-533E-4BA5-BDE2-7B318D914114}" EntityGUID_64="4BA5533EA8ECE2B2">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="405" Class="entity:RigidBodyEx" pos="31922.379,10544.947,0" flags="0" EntityGUID="{91A8B914-BD43-4A2E-BDDA-5BBD516CF15B}" EntityGUID_64="4A2EBD4391A8B914">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="406" Class="Physics:PhysicsEnable" pos="32172.379,10894.947,0" flags="0" EntityGUID="{91A8B914-BD43-4A2E-BDDA-5BBD516CF15B}" EntityGUID_64="4A2EBD4391A8B914">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="407" Class="Time:Timer" pos="32862.379,11774.947,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="408" Class="Physics:PhysicalObjectForcedSetZGravity" pos="33182.383,11810.5,0" flags="0" EntityGUID="{A8ECE2B2-533E-4BA5-BDE2-7B318D914114}" EntityGUID_64="4BA5533EA8ECE2B2">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="409" Class="Debug:Frame" pos="32882.379,11904.947,0" flags="0"/>
+      <Node Id="410" Class="Math:Mul" pos="33022.379,11874.947,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="411" Class="entity:FtEnemyBasic" pos="31377.279,13051.238,0" flags="0" EntityGUID="{DF4C9DF6-F8FC-4E6F-8BAC-87806FA4EDED}" EntityGUID_64="4E6FF8FCDF4C9DF6">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="412" Class="Entity:Attachment" pos="32437.279,13381.238,0" flags="0" EntityGUID="{DF4C9DF6-F8FC-4E6F-8BAC-87806FA4EDED}" EntityGUID_64="4E6FF8FCDF4C9DF6">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="413" Class="Entity:EntityId" pos="31757.279,13361.238,0" flags="0" EntityGUID="{A7114350-B1B2-4957-AA86-F52D0F1E1732}" EntityGUID_64="4957B1B2A7114350">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="414" Class="Time:Delay" pos="31737.279,13451.238,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="415" Class="Game:Start" pos="31487.279,13501.238,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="416" Class="Math:BooleanTo" pos="32617.279,13761.238,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="417" Class="Time:Delay" pos="31677.279,13551.238,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="418" Class="Time:Delay" pos="32367.279,13621.238,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="419" Class="Entity:EntityId" pos="32097.279,13411.238,0" flags="0" EntityGUID="{57597DD4-FA8C-4255-B9C1-5C7D3C81BAC3}" EntityGUID_64="4255FA8C57597DD4">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="420" Class="Entity:Attachment" pos="32447.279,12871.238,0" flags="0" EntityGUID="{DF4C9DF6-F8FC-4E6F-8BAC-87806FA4EDED}" EntityGUID_64="4E6FF8FCDF4C9DF6">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="421" Class="entity:RigidBodyEx" pos="32007.279,12831.238,0" flags="0" EntityGUID="{57597DD4-FA8C-4255-B9C1-5C7D3C81BAC3}" EntityGUID_64="4255FA8C57597DD4">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="422" Class="Physics:PhysicsEnable" pos="32257.279,13181.238,0" flags="0" EntityGUID="{57597DD4-FA8C-4255-B9C1-5C7D3C81BAC3}" EntityGUID_64="4255FA8C57597DD4">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="423" Class="Time:Timer" pos="32947.281,14061.238,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="424" Class="Physics:PhysicalObjectForcedSetZGravity" pos="33267.285,14096.791,0" flags="0" EntityGUID="{DF4C9DF6-F8FC-4E6F-8BAC-87806FA4EDED}" EntityGUID_64="4E6FF8FCDF4C9DF6">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="425" Class="Debug:Frame" pos="32967.281,14191.238,0" flags="0"/>
+      <Node Id="426" Class="Math:Mul" pos="33107.281,14161.238,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="427" Class="entity:FtEnemyBasic" pos="31557.814,15390.822,0" flags="0" EntityGUID="{B143D142-D914-4880-90FC-0F0F954B860C}" EntityGUID_64="4880D914B143D142">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="428" Class="Entity:Attachment" pos="32612.84,15717.877,0" flags="0" EntityGUID="{B143D142-D914-4880-90FC-0F0F954B860C}" EntityGUID_64="4880D914B143D142">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="429" Class="Entity:EntityId" pos="31937.814,15660.822,0" flags="0" EntityGUID="{1E7E8652-76E0-4E8D-8F0A-000D2CF1F9B5}" EntityGUID_64="4E8D76E01E7E8652">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="430" Class="Time:Delay" pos="31912.84,15787.877,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="431" Class="Game:Start" pos="31662.84,15837.877,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="432" Class="Math:BooleanTo" pos="32792.84,16097.877,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="433" Class="Time:Delay" pos="31852.84,15887.877,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="434" Class="Time:Delay" pos="32542.84,15957.877,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="435" Class="Entity:EntityId" pos="32272.84,15747.877,0" flags="0" EntityGUID="{9638EB7E-DB7B-4FDE-BBEF-360DE22D55B9}" EntityGUID_64="4FDEDB7B9638EB7E">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="436" Class="Entity:Attachment" pos="32622.84,15207.877,0" flags="0" EntityGUID="{B143D142-D914-4880-90FC-0F0F954B860C}" EntityGUID_64="4880D914B143D142">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="437" Class="entity:RigidBodyEx" pos="32182.84,15167.877,0" flags="0" EntityGUID="{9638EB7E-DB7B-4FDE-BBEF-360DE22D55B9}" EntityGUID_64="4FDEDB7B9638EB7E">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="438" Class="Physics:PhysicsEnable" pos="32432.84,15517.877,0" flags="0" EntityGUID="{9638EB7E-DB7B-4FDE-BBEF-360DE22D55B9}" EntityGUID_64="4FDEDB7B9638EB7E">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="439" Class="Time:Timer" pos="33122.84,16397.877,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="440" Class="Physics:PhysicalObjectForcedSetZGravity" pos="33442.844,16433.43,0" flags="0" EntityGUID="{B143D142-D914-4880-90FC-0F0F954B860C}" EntityGUID_64="4880D914B143D142">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="441" Class="Debug:Frame" pos="33142.84,16527.877,0" flags="0"/>
+      <Node Id="442" Class="Math:Mul" pos="33282.84,16497.877,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="443" Name="Mobs_fg" Class="_commentbox" pos="16380,5490.5952,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="19770" Height="11680"/>
+       <NodeSize Width="19770" Height="11735.441"/>
+      </Node>
+      <Node Id="448" Class="entity:FtEnemyBasic" pos="20289.668,15896.294,0" flags="0" EntityGUID="{3560B268-CCCA-49E7-9CAF-5494FA59372A}" EntityGUID_64="49E7CCCA3560B268">
+       <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+      </Node>
+      <Node Id="449" Class="Entity:EntityId" pos="20669.668,16206.294,0" flags="0" EntityGUID="{7F8B78A8-64F1-4E4E-B5BC-AA7DF62E8677}" EntityGUID_64="4E4E64F17F8B78A8">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="450" Class="entity:RigidBodyEx" pos="20919.668,15676.294,0" flags="0" EntityGUID="{457C6C52-AB5B-4262-B033-688B0363D44A}" EntityGUID_64="4262AB5B457C6C52">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="451" Class="Entity:Attachment" pos="21349.668,16226.294,0" flags="0" EntityGUID="{3560B268-CCCA-49E7-9CAF-5494FA59372A}" EntityGUID_64="49E7CCCA3560B268">
+       <Inputs entityId="0" Item="0" BoneName="Special_unUpdate_att" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="452" Class="Time:Delay" pos="20649.668,16296.293,0" flags="0">
+       <Inputs delay="0.4" resetOnInput="0"/>
+      </Node>
+      <Node Id="453" Class="Game:Start" pos="20399.668,16346.293,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="454" Class="Math:BooleanTo" pos="21529.668,16606.293,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="455" Class="Time:Delay" pos="20589.668,16396.293,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="456" Class="Time:Delay" pos="21279.668,16466.293,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="457" Class="Entity:EntityId" pos="21009.668,16256.294,0" flags="0" EntityGUID="{457C6C52-AB5B-4262-B033-688B0363D44A}" EntityGUID_64="4262AB5B457C6C52">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="458" Class="Entity:Attachment" pos="21359.668,15716.294,0" flags="0" EntityGUID="{3560B268-CCCA-49E7-9CAF-5494FA59372A}" EntityGUID_64="49E7CCCA3560B268">
+       <Inputs entityId="0" Item="0" BoneName="headede" CharacterSlot="0" EnableAttacmentOffset="0" RotationOffset="0,0,0" TranslationOffset="0,0,0"/>
+      </Node>
+      <Node Id="459" Class="Physics:PhysicsEnable" pos="21169.668,16026.294,0" flags="0" EntityGUID="{457C6C52-AB5B-4262-B033-688B0363D44A}" EntityGUID_64="4262AB5B457C6C52">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="460" Class="Time:Timer" pos="21859.668,16906.293,0" flags="0">
+       <Inputs period="0" min="0" max="0" paused="1"/>
+      </Node>
+      <Node Id="461" Class="Physics:PhysicalObjectForcedSetZGravity" pos="22179.676,16941.846,0" flags="0" EntityGUID="{3560B268-CCCA-49E7-9CAF-5494FA59372A}" EntityGUID_64="49E7CCCA3560B268">
+       <Inputs entityId="0" GravityValue="8.4"/>
+      </Node>
+      <Node Id="462" Class="Debug:Frame" pos="21879.668,17036.293,0" flags="0"/>
+      <Node Id="463" Class="Math:Mul" pos="22019.668,17006.293,0" flags="0">
+       <Inputs A="284" B="0"/>
+      </Node>
+      <Node Id="464" Name="special_mob(sitting)" Class="_commentbox" pos="19670,15292.042,0" flags="0">
+       <Inputs TextSize="1" Color="0.473532,0.23074,0.768151" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="3230" Height="2080"/>
+       <NodeSize Width="3230" Height="2135.4409"/>
+      </Node>
+      <Node Id="466" Class="Animations:PlayAnimation" pos="20820,16660,0" flags="0" EntityGUID="{3560B268-CCCA-49E7-9CAF-5494FA59372A}" EntityGUID_64="49E7CCCA3560B268">
+       <Inputs entityId="0" anim_Animation="idle_sitting01" BlendInTime="0.2" Layer="0" Loop="1" StayOnLastFrame="1" ForceUpdate="1" PauseAnimGraph="1" ControlMovement="1"/>
+      </Node>
+      <Node Id="474" Class="Animations:PlayAnimation" pos="21150,16760,0" flags="0" EntityGUID="{3560B268-CCCA-49E7-9CAF-5494FA59372A}" EntityGUID_64="49E7CCCA3560B268">
+       <Inputs entityId="0" anim_Animation="idle_up_from_point_five" BlendInTime="0.2" Layer="0" Loop="0" StayOnLastFrame="0" ForceUpdate="1" PauseAnimGraph="1" ControlMovement="1"/>
+      </Node>
+      <Node Id="476" Class="AI:AutoDisable" pos="21530,16730,0" flags="1" EntityGUID="{3560B268-CCCA-49E7-9CAF-5494FA59372A}" EntityGUID_64="49E7CCCA3560B268">
+       <Inputs entityId="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="4" nodeOut="1" portIn="Set" portOut="output" enabled="0"/>
+      <Edge nodeIn="16" nodeOut="1" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="3" portIn="in" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="3" portIn="in1" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="99" nodeOut="3" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="9" portIn="Enable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="9" portIn="Spawn" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="25" nodeOut="10" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="27" nodeOut="10" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="129" nodeOut="10" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="22" nodeOut="19" portIn="AO_Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="98" nodeOut="19" portIn="AO_Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="21" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="23" portIn="Enable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="23" portIn="Spawn" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="39" nodeOut="27" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="36" nodeOut="35" portIn="A" portOut="width" enabled="1"/>
+      <Edge nodeIn="37" nodeOut="35" portIn="A" portOut="height" enabled="1"/>
+      <Edge nodeIn="30" nodeOut="36" portIn="posX" portOut="out" enabled="1"/>
+      <Edge nodeIn="30" nodeOut="37" portIn="posY" portOut="out" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="38" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="30" nodeOut="38" portIn="Show" portOut="output" enabled="1"/>
+      <Edge nodeIn="35" nodeOut="38" portIn="Get" portOut="output" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="38" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="54" nodeOut="38" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="126" nodeOut="39" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="43" nodeOut="42" portIn="Set" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="50" nodeOut="42" portIn="Set" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="42" nodeOut="51" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="52" portIn="Disable" portOut="output" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="52" portIn="Disable" portOut="output" enabled="1"/>
+      <Edge nodeIn="128" nodeOut="53" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="14" nodeOut="55" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="55" portIn="add" portOut="output" enabled="1"/>
+      <Edge nodeIn="49" nodeOut="55" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="87" nodeOut="55" portIn="Spawn" portOut="output" enabled="1"/>
+      <Edge nodeIn="110" nodeOut="55" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="111" nodeOut="55" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="128" nodeOut="56" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="60" nodeOut="63" portIn="Set" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="63" portIn="Set" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="66" nodeOut="63" portIn="set" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="65" nodeOut="66" portIn="EV_Density" portOut="out" enabled="1"/>
+      <Edge nodeIn="123" nodeOut="67" portIn="EV_Density" portOut="out" enabled="1"/>
+      <Edge nodeIn="67" nodeOut="69" portIn="set" portOut="output" enabled="1"/>
+      <Edge nodeIn="143" nodeOut="85" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="151" nodeOut="94" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="97" nodeOut="95" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="155" nodeOut="95" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="103" nodeOut="96" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="149" nodeOut="97" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="153" nodeOut="97" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="100" nodeOut="99" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="13" nodeOut="100" portIn="AO_Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="100" nodeOut="101" portIn="in2" portOut="output" enabled="1"/>
+      <Edge nodeIn="156" nodeOut="103" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="122" nodeOut="104" portIn="Set" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="156" nodeOut="106" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="158" nodeOut="107" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="159" nodeOut="107" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="166" nodeOut="107" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="121" nodeOut="108" portIn="Set" portOut="Spawn" enabled="1"/>
+      <Edge nodeIn="158" nodeOut="109" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="118" nodeOut="115" portIn="A" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="118" nodeOut="115" portIn="DoCalc" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="119" nodeOut="115" portIn="A" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="119" nodeOut="115" portIn="DoCalc" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="120" nodeOut="115" portIn="A" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="120" nodeOut="115" portIn="DoCalc" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="112" nodeOut="116" portIn="Start" portOut="out" enabled="1"/>
+      <Edge nodeIn="113" nodeOut="116" portIn="Start" portOut="out" enabled="1"/>
+      <Edge nodeIn="114" nodeOut="116" portIn="Start" portOut="out" enabled="1"/>
+      <Edge nodeIn="115" nodeOut="116" portIn="Get" portOut="out" enabled="1"/>
+      <Edge nodeIn="165" nodeOut="117" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="112" nodeOut="118" portIn="Destination" portOut="out" enabled="1"/>
+      <Edge nodeIn="113" nodeOut="119" portIn="Destination" portOut="out" enabled="1"/>
+      <Edge nodeIn="114" nodeOut="120" portIn="Destination" portOut="out" enabled="1"/>
+      <Edge nodeIn="25" nodeOut="124" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="127" nodeOut="125" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="129" nodeOut="125" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="130" nodeOut="126" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="25" nodeOut="127" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="128" nodeOut="127" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="131" nodeOut="130" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="133" nodeOut="132" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="131" nodeOut="133" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="86" nodeOut="134" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="135" nodeOut="134" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="137" nodeOut="134" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="135" nodeOut="136" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="141" nodeOut="137" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="86" nodeOut="138" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="140" nodeOut="138" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="144" nodeOut="139" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="135" nodeOut="140" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="143" nodeOut="140" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="139" nodeOut="141" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="143" nodeOut="142" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="145" nodeOut="144" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="147" nodeOut="146" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="145" nodeOut="147" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="94" nodeOut="148" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="149" nodeOut="148" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="155" nodeOut="148" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="149" nodeOut="150" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="96" nodeOut="151" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="153" nodeOut="152" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="153" nodeOut="154" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="106" nodeOut="157" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="163" nodeOut="159" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="162" nodeOut="160" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="166" nodeOut="160" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="167" nodeOut="161" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="158" nodeOut="162" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="165" nodeOut="162" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="161" nodeOut="163" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="165" nodeOut="164" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="168" nodeOut="167" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="170" nodeOut="169" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="168" nodeOut="170" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="172" nodeOut="171" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="174" nodeOut="171" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="182" nodeOut="171" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="172" nodeOut="173" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="178" nodeOut="174" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="177" nodeOut="175" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="182" nodeOut="175" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="183" nodeOut="176" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="172" nodeOut="177" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="180" nodeOut="177" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="176" nodeOut="178" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="180" nodeOut="179" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="180" nodeOut="181" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="184" nodeOut="183" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="186" nodeOut="185" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="184" nodeOut="186" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="188" nodeOut="187" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="190" nodeOut="187" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="198" nodeOut="187" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="188" nodeOut="189" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="194" nodeOut="190" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="193" nodeOut="191" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="198" nodeOut="191" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="199" nodeOut="192" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="188" nodeOut="193" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="196" nodeOut="193" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="192" nodeOut="194" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="196" nodeOut="195" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="196" nodeOut="197" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="200" nodeOut="199" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="202" nodeOut="201" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="200" nodeOut="202" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="204" nodeOut="203" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="206" nodeOut="203" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="214" nodeOut="203" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="204" nodeOut="205" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="210" nodeOut="206" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="209" nodeOut="207" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="214" nodeOut="207" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="215" nodeOut="208" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="204" nodeOut="209" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="212" nodeOut="209" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="208" nodeOut="210" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="212" nodeOut="211" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="212" nodeOut="213" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="216" nodeOut="215" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="218" nodeOut="217" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="216" nodeOut="218" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="220" nodeOut="219" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="222" nodeOut="219" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="230" nodeOut="219" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="220" nodeOut="221" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="226" nodeOut="222" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="225" nodeOut="223" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="230" nodeOut="223" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="231" nodeOut="224" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="220" nodeOut="225" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="228" nodeOut="225" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="224" nodeOut="226" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="228" nodeOut="227" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="228" nodeOut="229" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="232" nodeOut="231" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="234" nodeOut="233" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="232" nodeOut="234" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="252" nodeOut="251" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="254" nodeOut="251" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="262" nodeOut="251" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="252" nodeOut="253" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="258" nodeOut="254" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="257" nodeOut="255" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="262" nodeOut="255" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="263" nodeOut="256" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="252" nodeOut="257" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="260" nodeOut="257" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="256" nodeOut="258" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="260" nodeOut="259" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="260" nodeOut="261" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="264" nodeOut="263" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="266" nodeOut="265" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="264" nodeOut="266" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="268" nodeOut="267" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="270" nodeOut="267" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="278" nodeOut="267" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="268" nodeOut="269" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="274" nodeOut="270" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="273" nodeOut="271" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="278" nodeOut="271" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="279" nodeOut="272" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="268" nodeOut="273" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="276" nodeOut="273" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="272" nodeOut="274" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="276" nodeOut="275" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="276" nodeOut="277" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="280" nodeOut="279" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="282" nodeOut="281" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="280" nodeOut="282" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="284" nodeOut="283" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="286" nodeOut="283" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="294" nodeOut="283" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="284" nodeOut="285" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="290" nodeOut="286" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="289" nodeOut="287" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="294" nodeOut="287" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="295" nodeOut="288" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="284" nodeOut="289" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="292" nodeOut="289" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="288" nodeOut="290" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="292" nodeOut="291" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="292" nodeOut="293" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="296" nodeOut="295" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="298" nodeOut="297" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="296" nodeOut="298" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="300" nodeOut="299" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="302" nodeOut="299" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="310" nodeOut="299" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="300" nodeOut="301" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="306" nodeOut="302" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="305" nodeOut="303" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="310" nodeOut="303" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="311" nodeOut="304" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="300" nodeOut="305" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="308" nodeOut="305" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="304" nodeOut="306" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="308" nodeOut="307" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="308" nodeOut="309" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="312" nodeOut="311" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="314" nodeOut="313" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="312" nodeOut="314" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="316" nodeOut="315" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="318" nodeOut="315" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="326" nodeOut="315" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="316" nodeOut="317" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="322" nodeOut="318" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="321" nodeOut="319" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="326" nodeOut="319" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="327" nodeOut="320" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="316" nodeOut="321" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="324" nodeOut="321" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="320" nodeOut="322" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="324" nodeOut="323" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="324" nodeOut="325" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="328" nodeOut="327" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="330" nodeOut="329" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="328" nodeOut="330" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="332" nodeOut="331" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="334" nodeOut="331" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="342" nodeOut="331" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="332" nodeOut="333" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="338" nodeOut="334" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="337" nodeOut="335" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="342" nodeOut="335" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="343" nodeOut="336" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="332" nodeOut="337" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="340" nodeOut="337" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="336" nodeOut="338" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="340" nodeOut="339" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="340" nodeOut="341" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="344" nodeOut="343" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="346" nodeOut="345" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="344" nodeOut="346" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="348" nodeOut="347" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="350" nodeOut="347" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="358" nodeOut="347" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="348" nodeOut="349" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="354" nodeOut="350" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="353" nodeOut="351" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="358" nodeOut="351" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="359" nodeOut="352" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="348" nodeOut="353" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="356" nodeOut="353" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="352" nodeOut="354" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="356" nodeOut="355" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="356" nodeOut="357" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="360" nodeOut="359" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="362" nodeOut="361" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="360" nodeOut="362" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="364" nodeOut="363" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="366" nodeOut="363" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="374" nodeOut="363" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="364" nodeOut="365" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="370" nodeOut="366" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="369" nodeOut="367" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="374" nodeOut="367" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="375" nodeOut="368" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="364" nodeOut="369" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="372" nodeOut="369" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="368" nodeOut="370" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="372" nodeOut="371" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="372" nodeOut="373" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="376" nodeOut="375" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="378" nodeOut="377" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="376" nodeOut="378" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="380" nodeOut="379" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="382" nodeOut="379" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="390" nodeOut="379" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="380" nodeOut="381" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="386" nodeOut="382" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="385" nodeOut="383" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="390" nodeOut="383" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="391" nodeOut="384" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="380" nodeOut="385" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="388" nodeOut="385" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="384" nodeOut="386" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="388" nodeOut="387" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="388" nodeOut="389" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="392" nodeOut="391" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="394" nodeOut="393" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="392" nodeOut="394" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="396" nodeOut="395" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="398" nodeOut="395" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="406" nodeOut="395" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="396" nodeOut="397" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="402" nodeOut="398" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="401" nodeOut="399" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="406" nodeOut="399" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="407" nodeOut="400" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="396" nodeOut="401" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="404" nodeOut="401" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="400" nodeOut="402" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="404" nodeOut="403" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="404" nodeOut="405" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="408" nodeOut="407" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="410" nodeOut="409" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="408" nodeOut="410" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="412" nodeOut="411" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="414" nodeOut="411" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="422" nodeOut="411" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="412" nodeOut="413" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="418" nodeOut="414" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="417" nodeOut="415" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="422" nodeOut="415" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="423" nodeOut="416" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="412" nodeOut="417" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="420" nodeOut="417" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="416" nodeOut="418" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="420" nodeOut="419" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="420" nodeOut="421" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="424" nodeOut="423" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="426" nodeOut="425" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="424" nodeOut="426" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="428" nodeOut="427" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="430" nodeOut="427" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="438" nodeOut="427" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="428" nodeOut="429" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="434" nodeOut="430" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="433" nodeOut="431" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="438" nodeOut="431" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="439" nodeOut="432" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="428" nodeOut="433" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="436" nodeOut="433" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="432" nodeOut="434" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="436" nodeOut="435" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="436" nodeOut="437" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="440" nodeOut="439" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="442" nodeOut="441" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="440" nodeOut="442" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="451" nodeOut="448" portIn="Detach" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="452" nodeOut="448" portIn="in" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="459" nodeOut="448" portIn="Disable" portOut="Dead" enabled="1"/>
+      <Edge nodeIn="466" nodeOut="448" portIn="Stop" portOut="OnAlert" enabled="1"/>
+      <Edge nodeIn="474" nodeOut="448" portIn="Start" portOut="OnAlert" enabled="1"/>
+      <Edge nodeIn="451" nodeOut="449" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="458" nodeOut="450" portIn="Detach" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="456" nodeOut="452" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="455" nodeOut="453" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="459" nodeOut="453" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="460" nodeOut="454" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="451" nodeOut="455" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="458" nodeOut="455" portIn="Attach" portOut="out" enabled="1"/>
+      <Edge nodeIn="466" nodeOut="455" portIn="Start" portOut="out" enabled="1"/>
+      <Edge nodeIn="476" nodeOut="455" portIn="OFF" portOut="out" enabled="1"/>
+      <Edge nodeIn="454" nodeOut="456" portIn="false" portOut="out" enabled="1"/>
+      <Edge nodeIn="458" nodeOut="457" portIn="Item" portOut="Id" enabled="1"/>
+      <Edge nodeIn="461" nodeOut="460" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="463" nodeOut="462" portIn="B" portOut="frametime" enabled="1"/>
+      <Edge nodeIn="461" nodeOut="463" portIn="GravityValue" portOut="out" enabled="1"/>
+      <Edge nodeIn="476" nodeOut="474" portIn="ON" portOut="Done" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="GeomEntity" Layer="section A(skydome)" LayerGUID="{ED06D522-AC70-4AAD-A06F-6EA0D4EADD98}" Id="{412F7CD8-5381-469A-8D45-A171D6A167FF}" Name="forest_skydome4" Pos="573.13959,254.19141,-1592.25" FloorNumber="-1" Rotate="0.73570627,-0.076614566,-0.17309363,0.65031153" Scale="4.1399999,4.1399999,4.1399999" ColorRGB="65535" Material="objects/sky/forest_sky_dome" MatLayersMask="0" Geometry="objects/sky/forest_skydome.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
