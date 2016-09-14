@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="comment_S_A" GUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Exportable="0" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="7233055">
+ <Layer Name="comment_S_A" FullName="comment_S_A" GUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Hidden="0" Frozen="0" Expanded="0" Exportable="0" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="7233055">
   <LayerObjects>
    <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{43AC6C03-D342-4853-8E9E-E943BE818956}" Name="Comment21" Pos="376.11038,510.3461,53.453758" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment" HasEntity="1">
     <Properties nCharsPerLine="30" clrDiffuse="0.00518152,0.00518152,0.854993" bFixed="0" bHidden="0" fMaxDist="30" fSize="1.2" Text="Water"/>
@@ -122,9 +122,6 @@
    </Object>
    <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{FEC92953-B39F-47FE-AB85-AE52D147EE94}" Name="Comment11" Pos="588.81848,801.40228,34.049999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment" HasEntity="1">
     <Properties nCharsPerLine="30" clrDiffuse="0.0152085,0.114435,0.701102" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.5" Text="Indev"/>
-   </Object>
-   <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{BFC60A58-B166-4BC8-9C1E-4567C87237C4}" Name="Comment28" Pos="551.32477,144.81381,57.769802" FloorNumber="-1" Rotate="1,0,0,0" Scale="1.3099999,1.3099999,1.3099999" ColorRGB="41215" EntityClass="Comment" HasEntity="1">
-    <Properties nCharsPerLine="30" clrDiffuse="1,0.5,0" bFixed="0" bHidden="0" fMaxDist="5" fSize="2" Text="Click me &quot;F&quot;"/>
    </Object>
    <Object Type="Comment" Layer="comment_S_A" LayerGUID="{A0AF95EB-155A-4ACF-9921-CB61E6CFB560}" Id="{75BDF375-7C8E-42D9-8905-B778812F35DD}" Name="Comment22" Pos="362.604,512.70917,53.821987" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="41215" Flags="2" EntityClass="Comment" HasEntity="1">
     <Properties nCharsPerLine="30" clrDiffuse="0.00518152,0.00518152,0.854993" bFixed="0" bHidden="0" fMaxDist="30" fSize="1.2" Text="District 9"/>

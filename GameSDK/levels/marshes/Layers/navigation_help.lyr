@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Navigation_help" GUID="{9DDF5ACA-C314-44EF-9730-3DC0102B16FF}" Exportable="0" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="1169406">
+ <Layer Name="Navigation_help" FullName="Navigation_help" GUID="{9DDF5ACA-C314-44EF-9730-3DC0102B16FF}" Hidden="0" Frozen="0" Expanded="0" Exportable="0" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="1169406">
   <LayerObjects>
    <Object Type="Designer" Layer="Navigation_help" LayerGUID="{9DDF5ACA-C314-44EF-9730-3DC0102B16FF}" Id="{02E69903-32B9-4FE2-BB7B-7CA37614BD6F}" Name="Designer494" Pos="618.86096,290.50836,51.383308" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Flags="2" Material="materials/references/base_colors/orange" RndFlags="1073742088" StaticObjFlags="1" ViewDistRatio="100">
     <Brush DesignerModeFlags="0" SubdivisionLevel="0" SubdivisionSmoothingGroup="0" MirrorPlaneNormal="0,0,0" MirrorPlaneDistance="0">

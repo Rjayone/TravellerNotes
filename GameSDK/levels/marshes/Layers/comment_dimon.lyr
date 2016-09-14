@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="comment_Dimon" GUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Exportable="0" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="5537792" ParentGUID="{66094B60-7C87-4D55-8A74-D550BB71ACAD}">
+ <Layer Name="comment_Dimon" FullName="comment_Dimon" GUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Hidden="0" Frozen="0" Expanded="0" Exportable="0" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="0" Color="5537792" ParentGUID="{66094B60-7C87-4D55-8A74-D550BB71ACAD}">
   <LayerObjects>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{7282C818-AB38-4E96-A0DB-85BD9A27E9EB}" Name="Comment48" Pos="576.2843,239.67879,49.850201" FloorNumber="-1" Rotate="1,9.2642999e-08,-7.5020807e-08,0" ColorRGB="41215" EntityClass="Comment" HasEntity="1">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="Iz za kanala moment prosral, ne znayu chto delat&apos; :("/>
@@ -21,9 +21,6 @@
    </Object>
    <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{90E526CF-6156-4F69-ADDC-37008ED0CB01}" Name="Comment47" Pos="579.50604,246.41261,49.850201" FloorNumber="-1" Rotate="1,9.2642999e-08,-7.5020807e-08,0" ColorRGB="41215" EntityClass="Comment" HasEntity="1">
     <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="10" fSize="1.33" Text="tut chto govoril Vova, nado povisit poziciyu GG."/>
-   </Object>
-   <Object Type="Comment" Layer="comment_Dimon" LayerGUID="{7D304E50-1E13-43A2-9092-7D521DDF5E65}" Id="{42D130F8-1184-4F20-B7DE-01EDB8B1757A}" Name="Comment31" Pos="569.16071,150.54959,46.679531" FloorNumber="-1" Rotate="1,9.2642999e-08,-7.5020807e-08,0" ColorRGB="41215" EntityClass="Comment" HasEntity="1">
-    <Properties nCharsPerLine="10" clrDiffuse="0,0.520996,0.00334654" bFixed="0" bHidden="0" fMaxDist="5" fSize="1.33" Text="Prigat ot suda. Nujna kalibrovka na bilde s prijkami"/>
    </Object>
   </LayerObjects>
  </Layer>
