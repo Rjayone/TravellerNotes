@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="4A400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%OFFSET_BUMP_MAPPING%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="69" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/architecture/marshes/textures/bricks_4_diff.dds"/>
+  <Texture Map="Bumpmap" File="objects/architecture/marshes/textures/bricks_4_ddna.dds"/>
+  <Texture Map="Heightmap" File="objects/architecture/marshes/textures/bricks_4_displ.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" PomDisplacement="0.0263" SSSIndex="0" SelfShadowStrength="0" ObmDisplacement="0.011" HeightBias="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
