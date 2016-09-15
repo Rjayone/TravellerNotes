@@ -1,4 +1,4 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="42400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%OFFSET_BUMP_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.0074990322,0.0074990322,0.0074990322" Opacity="1" Shininess="136" CloakAmount="0" vertModifType="0" LayerAct="1">
+<Material MtlFlags="524288" Shader="Illum" GenMask="42400401" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%OFFSET_BUMP_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.0074990322,0.0074990322,0.0074990322" Opacity="1" Shininess="136" CloakAmount="0" vertModifType="0" LayerAct="1">
  <Textures>
   <Texture Map="Diffuse" File="objects/architecture/marshes/textures/wood_1_diff.tif">
    <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>

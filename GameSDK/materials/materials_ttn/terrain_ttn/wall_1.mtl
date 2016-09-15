@@ -1,4 +1,4 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="152" CloakAmount="0" vertModifType="0" LayerAct="1">
+<Material MtlFlags="524288" Shader="Illum" GenMask="40400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
  <Textures>
   <Texture Map="Diffuse" File="objects/architecture/marshes/textures/wall_1_diff.tif">
    <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.30000001" TileV="0.30000001"/>

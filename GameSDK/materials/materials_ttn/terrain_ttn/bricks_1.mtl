@@ -1,4 +1,4 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="4A400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%OFFSET_BUMP_MAPPING%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.027320893,0.027320893,0.027320893" Opacity="1" Shininess="120" CloakAmount="0" vertModifType="0" LayerAct="1">
+<Material MtlFlags="524288" Shader="Illum" GenMask="4A400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%OFFSET_BUMP_MAPPING%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="120" CloakAmount="0" vertModifType="0" LayerAct="1">
  <Textures>
   <Texture Map="Diffuse" File="textures/terrain_ttn/brick_diff.dds"/>
   <Texture Map="Bumpmap" File="textures/terrain_ttn/brick_ddna.dds"/>
