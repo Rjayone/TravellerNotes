@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="20000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="0.70999998" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Textures/decals_ttn/white_strip_diff.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.99000001" DecalFalloff="5" DecalAlphaMult="1.11"/>
+</Material>

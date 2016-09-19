@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="21400000" StringGenMask="%NORMAL_MAP%SILHOUETTE_PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.0069954107,0.0069954107,0.0069954107" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/defaults/defaultnouvs.tif"/>
+  <Texture Map="Bumpmap" File="textures/generic/displacement/bricks_ddn.tif"/>
+  <Texture Map="Heightmap" File="textures/generic/displacement/bricks_displ.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

@@ -1,0 +1,6 @@
+<Material MtlFlags="524324" Shader="Illum" GenMask="20000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.1441285,0.0036765076,0.0036765076" Specular="0.01228649,0,0" Opacity="1" Shininess="7" AlphaTest="0.1" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/blood_custom/blood_fx_on_ground_01.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>
