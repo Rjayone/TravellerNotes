@@ -30,8 +30,10 @@
 # 3D source
 *.max
 *.tiff
+*.tif
 *.psd
 *.fbx
+*.db
 
 # Backup files
 *.bak
