@@ -41,6 +41,12 @@
      <Size x="500" y="500" z="50"/>
     </Properties>
    </Object>
+   <Object Type="Entity" Layer="weather_a" LayerGUID="{9EF81D2B-BADD-47FD-99A5-7A7364C55BCE}" Id="{A10AD7F7-84E6-4F09-88FF-17A5423FA090}" Name="FogVolume12" Pos="585.89233,319.38724,24.305298" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FogVolume" HasEntity="1">
+    <Properties bActive="1" bAffectsThisAreaOnly="0" color_Color="1,1,1" DensityNoiseOffset="-0.5" DensityNoiseScale="5" DensityNoiseTimeFrequency="0" DensityOffset="0" color_EmissionColor="1,1,1" EmissionIntensity="0" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="1" FallOffShift="0" GlobalDensity="0.1" fHDRDynamic="0" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="0" eiVolumeType="0" WindInfluence="0.5">
+     <DensityNoiseFrequency x="50" y="50" z="60"/>
+     <Size x="500" y="500" z="50"/>
+    </Properties>
+   </Object>
   </LayerObjects>
  </Layer>
 </ObjectLayer>

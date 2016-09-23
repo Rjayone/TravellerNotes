@@ -1,0 +1,26 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="body" MtlFlags="524418" Shader="HumanSkin" GenMask="820400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%TEMP_SKIN" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="248" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/flats_pbr_dubl/mesh_lp_albedo.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/flats_pbr_dubl/mesh_lp_normal.tif"/>
+    <Texture Map="Specular" File="objects/characters/flats_pbr_dubl/mesh_lp_specular.tif"/>
+    <Texture Map="Opacity" File="objects/characters/flats_pbr_dubl/mesh_lp_sss.tif"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="0.78799999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mask" MtlFlags="524416" Shader="Illum" GenMask="40000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.45641103,0.45641103,0.45641103" Specular="0.033104774,0.033104774,0.033104774" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/flats_pbr_dubl/mask_albedo.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="hair_moss" MtlFlags="524416" Shader="Illum" GenMask="40000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.60382748,0.60382748,0.60382748" Specular="0.038204376,0.038204376,0.038204376" Opacity="1" Shininess="10" AlphaTest="0.1" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/flats_pbr_dubl/hair_moss_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

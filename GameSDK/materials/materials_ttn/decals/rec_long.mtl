@@ -1,0 +1,7 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="20400801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="0.87" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Textures/decals_ttn/rec_long_hole_diff.tif"/>
+  <Texture Map="Bumpmap" File="Textures/decals_ttn/rec_long_ddna.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.99000001" DecalFalloff="5" DecalAlphaMult="1.11"/>
+</Material>

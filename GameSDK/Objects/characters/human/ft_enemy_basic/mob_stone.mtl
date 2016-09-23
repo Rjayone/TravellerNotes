@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="30400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.046665091,0.046665091,0.046665091" Opacity="1" Shininess="119" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="./tex/stone_diff.tif"/>
+  <Texture Map="Bumpmap" File="./tex/stone_ddna.tif"/>
+  <Texture Map="Specular" File="./tex/stone_spec.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>
