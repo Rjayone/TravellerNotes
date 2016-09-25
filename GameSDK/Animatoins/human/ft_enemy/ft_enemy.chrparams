@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="$Include" path="animations/human/male/player.chrparams"/>
+		<Animation name="#filepath" path="animations/human/ft_enemy/ft_enemy_anims"/>
+		<Animation name="*" path="*\*.caf"/>
+		<Animation name="*" path="*\*.bspace"/>
+		<Animation name="*" path="*\*.comb"/>
+	</AnimationList>
+</Params>

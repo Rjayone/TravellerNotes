@@ -1,10 +1,10 @@
 <Material MtlFlags="524544" vertModifType="0">
  <SubMaterials>
-  <Material Name="pin1" MtlFlags="524418" Shader="Vegetation" GenMask="2400800000" StringGenMask="%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.26225069,0.26225069,0.26225069" Specular="0.035601322,0.035601322,0.035601322" Opacity="1" Shininess="12" vertModifType="0" LayerAct="1">
+  <Material Name="pin1" MtlFlags="524418" Shader="Vegetation" GenMask="2400800000" StringGenMask="%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.0091340598,0.18116426,0.76052463" Specular="0.035601322,0.035601322,0.035601322" Opacity="1" Shininess="12" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="Textures/defaults/white.dds"/>
    </Textures>
-   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BackDiffuseMultiplier="0.0099999998" BlendTerrainColDist="0.5"/>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.65140575,0.85499275,0.92158198" CapOpacityFalloff="1" BackDiffuseMultiplier="0.0099999998" BlendTerrainColDist="0.5"/>
   </Material>
   <Material Name="pin2" MtlFlags="524416" Shader="Illum" GenMask="20000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
    <Textures />

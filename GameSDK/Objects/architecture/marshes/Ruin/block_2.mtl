@@ -7,7 +7,7 @@
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>
-  <Material Name="block2" MtlFlags="524416" Shader="Illum" GenMask="20000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+  <Material Name="block2" MtlFlags="524416" Shader="Illum" GenMask="20000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
    <Textures />
    <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
   </Material>
