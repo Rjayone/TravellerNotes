@@ -43,6 +43,59 @@
      </Physics>
     </Properties>
    </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{763A6935-4CBE-46CB-8936-FC85B2F27401}" Name="RigidBodyEx12" Pos="619.12836,155.51065,42.327579" FloorNumber="-1" Rotate="0.67559016,-0.73727733,-5.5879354e-09,0" Scale="1.4,1.3999999,1.3999999" ColorRGB="65535" Material="Materials/hud/HUD3D1" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="RigidBodyEx" HasEntity="1">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/default/primitive_box.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="1000" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{E4E4E74B-1EA6-49A5-9A93-3DBBEBD97551}" Name="GeomCache3" Pos="588.96112,147.27701,78.651794" FloorNumber="-1" Rotate="0.67023218,-0.73143023,0.092670456,-0.084916838" Scale="1.4291285,1.4291285,1.4291285" ColorRGB="65535" Material="materials/materials_ttn/terrain_ttn/wall_1" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomCache" HasEntity="1">
+    <Properties geomcacheFile="objects/geoms/floor_mine.cax" objectFirstFrameStandIn="" materialFirstFrameStandInMaterial="" objectLastFrameStandIn="" materialLastFrameStandInMaterial="" bLooping="0" bPlaying="0" objectStandIn="" fStandInDistance="0" materialStandInMaterial="" fStartTime="0" fStreamInDistance="0">
+     <Physics bPhysicalize="0"/>
+    </Properties>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="2" Class="entity:GeomCache" pos="40,-130,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Hide="0" PrecacheTime="0" SetTime="0" Start="0" StartDrawing="0" StartStreaming="0" Stop="0" StopDrawing="0" StopStreaming="0" Unhide="0"/>
+      </Node>
+      <Node Id="4" Class="entity:ProximityTrigger" pos="-330,-100,0" flags="0" EntityGUID="{35E9E199-449E-47CD-AF10-3454140C763B}" EntityGUID_64="47CD449E35E9E199">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="6" Class="Actor:LocalPlayer" pos="-440,70,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="7" Class="Actor:Damage" pos="-250,150,0" flags="0">
+       <Inputs entityId="0" damage="25" damageRelative="0" Position="0,0,0"/>
+      </Node>
+      <Node Id="9" Class="Time:Delay" pos="90,130,0" flags="0">
+       <Inputs delay="20" resetOnInput="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="2" nodeOut="4" portIn="Start" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="4" portIn="Trigger" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="4" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="6" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="9" portIn="Hide" portOut="out" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{34B96F65-99EC-4D4F-BDC1-F9952C65BA84}" Name="RigidBodyEx19" Pos="597.52771,185.37126,23.475277" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="RigidBodyEx" HasEntity="1">
     <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="3.5" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/characters/human/ft_enemy_basic/mob_stone.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
      <AI bUsedAsDynamicObstacle="1"/>
@@ -64,8 +117,8 @@
      </Physics>
     </Properties>
    </Object>
-   <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{3560B268-CCCA-49E7-9CAF-5494FA59372A}" Name="FtEnemyBasic28" Pos="586.40497,146.0762,48.960999" FloorNumber="-1" Rotate="-0.087155789,0,0,0.99619472" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FtEnemyBasic" HasEntity="1">
-    <Properties add_equip_pack_path="" add_equip_pack_path2="" add_equip_pack_wear="0" add_equip_pack_wear2="0" additional_eq_pack_add="0" additional_eq_pack_add2="0" aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" charactername="" chest="0" eiColliderMode="0" esCommConfig="Human" commrange="15" dialogable="0" dialogsysdataF="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" dialogsysdataM="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" bEnableHitReaction="1" equip_EquipmentPack="simpleswordFt" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/ft_enemy_basic/ft_enemy_basic_v2.cdf" nModelVariations="0" esModularBehaviorTree="Melee_Ft_Enemy_Behavior" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" tradingskill="10" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+   <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{3560B268-CCCA-49E7-9CAF-5494FA59372A}" Name="FtEnemyBasic28" Pos="586.40497,146.0762,48.960999" FloorNumber="-1" Rotate="-0.087155774,0,0,0.99619472" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FtEnemyBasic" HasEntity="1">
+    <Properties add_equip_pack_path="" add_equip_pack_path2="" add_equip_pack_wear="0" add_equip_pack_wear2="0" additional_eq_pack_add="0" additional_eq_pack_add2="0" aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" blood_type="2" bloodlooseeffectname="misc.blood_fx.blood_loose_effect_up" charactername="" chest="0" eiColliderMode="0" esCommConfig="Human" commrange="15" dialogable="0" dialogsysdataF="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" dialogsysdataM="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" bEnableHitReaction="1" equip_EquipmentPack="simpleswordFt" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/ft_enemy_basic/ft_enemy_basic_v2.cdf" nModelVariations="0" esModularBehaviorTree="Melee_Ft_Enemy_Behavior" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" tradingskill="10" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
      <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_FtEnemyBasicMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_FtEnemyBasicMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
@@ -117,10 +170,10 @@
     </Properties>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{7E088185-AE30-4D87-A9F8-F7EBD4E53149}" Name="FtEnemyBasic10" Pos="597.32391,175.75963,23.890539" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FtEnemyBasic" HasEntity="1">
-    <Properties add_equip_pack_path="" add_equip_pack_path2="" add_equip_pack_wear="0" add_equip_pack_wear2="0" additional_eq_pack_add="0" additional_eq_pack_add2="0" aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" charactername="" chest="0" eiColliderMode="0" esCommConfig="Human" commrange="15" dialogable="0" dialogsysdataF="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" dialogsysdataM="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" bEnableHitReaction="1" equip_EquipmentPack="simpleswordFt" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/ft_enemy_basic/ft_enemy_basic_v2.cdf" nModelVariations="0" esModularBehaviorTree="Melee_Ft_Enemy_Behavior" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" tradingskill="10" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
+    <Properties add_equip_pack_path="" add_equip_pack_path2="" add_equip_pack_wear="0" add_equip_pack_wear2="0" additional_eq_pack_add="0" additional_eq_pack_add2="0" aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" blood_type="2" bloodlooseeffectname="misc.blood_fx.blood_loose_effect_up" charactername="" chest="0" eiColliderMode="0" esCommConfig="Human" commrange="15" dialogable="0" dialogsysdataF="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" dialogsysdataM="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" bEnableHitReaction="1" equip_EquipmentPack="simpleswordFt" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/ft_enemy_basic/ft_enemy_basic_v2.cdf" nModelVariations="0" esModularBehaviorTree="Melee_Ft_Enemy_Behavior" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" tradingskill="10" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
-     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_FtEnemyBasicMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_FtEnemyBasicMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_FtEnemyBasicMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_FtEnemyBasicMaleShared.xml" CanFall="0" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
      <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
      <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
       <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -134,7 +187,7 @@
        <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
       </CollisionFiltering>
      </Physics>
-     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <PlayerInteractions bCanBeGrabbed="0" esGrabType="Human" bStealthKill="1"/>
      <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
      <Rendering bWrinkleMap="0"/>
@@ -146,6 +199,27 @@
      <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{2A55BD94-5A1E-4E3F-BDF4-A6F28B185A98}" Name="RigidBodyEx9" Pos="588.95746,145.4019,78.548981" FloorNumber="-1" Rotate="0.66981041,-0.73096985,0.088182211,-0.096234009" ColorRGB="65535" Material="Materials/hud/HUD3D1" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="RigidBodyEx" HasEntity="1">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/default/primitive_box.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{1E81A19E-CA8C-4069-BAB0-F5E7AFE9397A}" Name="RigidBodyEx17" Pos="595.83679,185.37955,23.475277" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="RigidBodyEx" HasEntity="1">
     <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="3.5" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/characters/human/ft_enemy_basic/mob_stone.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
@@ -222,7 +296,7 @@
     <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Roof="0" Floor="0"/>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{4EAFFDE7-E845-40D3-A4A7-4A2CA6BF1116}" Name="FtEnemyBasic3" Pos="593.91266,175.79549,23.890539" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FtEnemyBasic" HasEntity="1">
-    <Properties add_equip_pack_path="" add_equip_pack_path2="" add_equip_pack_wear="0" add_equip_pack_wear2="0" additional_eq_pack_add="0" additional_eq_pack_add2="0" aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" charactername="" chest="0" eiColliderMode="0" esCommConfig="Human" commrange="15" dialogable="0" dialogsysdataF="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" dialogsysdataM="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" bEnableHitReaction="1" equip_EquipmentPack="simpleswordFt" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/ft_enemy_basic/ft_enemy_basic_v2.cdf" nModelVariations="0" esModularBehaviorTree="Melee_Ft_Enemy_Behavior" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" tradingskill="10" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
+    <Properties add_equip_pack_path="" add_equip_pack_path2="" add_equip_pack_wear="0" add_equip_pack_wear2="0" additional_eq_pack_add="0" additional_eq_pack_add2="0" aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" blood_type="2" bloodlooseeffectname="misc.blood_fx.blood_loose_effect_up" charactername="" chest="0" eiColliderMode="0" esCommConfig="Human" commrange="15" dialogable="0" dialogsysdataF="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" dialogsysdataM="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" bEnableHitReaction="1" equip_EquipmentPack="simpleswordFt" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/ft_enemy_basic/ft_enemy_basic_v2.cdf" nModelVariations="0" esModularBehaviorTree="Melee_Ft_Enemy_Behavior" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" tradingskill="10" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
      <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_FtEnemyBasicMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_FtEnemyBasicMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
@@ -252,8 +326,29 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{59FD68F1-B068-4C01-83EB-89CCF9F50B6F}" Name="RigidBodyEx10" Pos="573.0838,120.9425,41.666885" FloorNumber="-1" Rotate="0.67559016,-0.73727733,-5.5879354e-09,0" ColorRGB="65535" Material="Materials/hud/HUD3D1" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="RigidBodyEx" HasEntity="1">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/default/primitive_box.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="1000" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="{E32D18B1-B60E-48D6-871B-A2A26AD284B6}" Id="{3ADD5DF4-E64B-44C5-BF98-26E0D46BA596}" Name="FtEnemyBasic9" Pos="595.633,175.76791,23.890539" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FtEnemyBasic" HasEntity="1">
-    <Properties add_equip_pack_path="" add_equip_pack_path2="" add_equip_pack_wear="0" add_equip_pack_wear2="0" additional_eq_pack_add="0" additional_eq_pack_add2="0" aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" charactername="" chest="0" eiColliderMode="0" esCommConfig="Human" commrange="15" dialogable="0" dialogsysdataF="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" dialogsysdataM="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" bEnableHitReaction="1" equip_EquipmentPack="simpleswordFt" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/ft_enemy_basic/ft_enemy_basic_v2.cdf" nModelVariations="0" esModularBehaviorTree="Melee_Ft_Enemy_Behavior" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" tradingskill="10" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
+    <Properties add_equip_pack_path="" add_equip_pack_path2="" add_equip_pack_wear="0" add_equip_pack_wear2="0" additional_eq_pack_add="0" additional_eq_pack_add2="0" aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" blood_type="2" bloodlooseeffectname="misc.blood_fx.blood_loose_effect_up" charactername="" chest="0" eiColliderMode="0" esCommConfig="Human" commrange="15" dialogable="0" dialogsysdataF="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" dialogsysdataM="Mods\CrysisMod\Game\scripts\AI\DialogData\testdialog.xml" bEnableHitReaction="1" equip_EquipmentPack="simpleswordFt" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/ft_enemy_basic/ft_enemy_basic_v2.cdf" nModelVariations="0" esModularBehaviorTree="Melee_Ft_Enemy_Behavior" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" tradingskill="10" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
      <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_FtEnemyBasicMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_FtEnemyBasicMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>

@@ -1,0 +1,15 @@
+<ObjectLayer>
+ <Layer Name="section_A(cut_sc)" FullName="section_A(cut_sc)" GUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Hidden="0" Frozen="0" Expanded="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="1" HavePhysics="1" IsDefaultColor="0" Color="13195008">
+  <LayerObjects>
+   <Object Type="Camera" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{EB4EB41B-E687-4735-B83C-963B9D129EAB}" Name="Camera2" Pos="608.63251,143.65697,25.218555" FloorNumber="-1" Rotate="0.98742777,0.042637635,0.0065666321,0.15207012" ColorRGB="16776960" FOV="0.959931" NearZ="0.25" FarZ="1024" EntityClass="CameraSource" HasEntity="1">
+    <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0" CameraShakeSeed="0"/>
+   </Object>
+   <Object Type="Entity" Layer="section_A(cut_sc)" LayerGUID="{E0025AED-7E51-456D-9B1E-7844F47151CC}" Id="{6D84F251-4B5B-4D4E-85B9-AA3031250F7E}" Name="FogVolume4" Pos="598.65607,150.06514,25.12628" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FogVolume" HasEntity="1">
+    <Properties bActive="1" bAffectsThisAreaOnly="0" color_Color="0.496933,0.031896,0.031896" DensityNoiseOffset="0" DensityNoiseScale="1" DensityNoiseTimeFrequency="0" DensityOffset="0" color_EmissionColor="1,1,1" EmissionIntensity="0" FallOffDirLati="70" FallOffDirLong="36" FallOffScale="2" FallOffShift="0" GlobalDensity="0.1" fHDRDynamic="1" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="0" eiVolumeType="0" WindInfluence="1">
+     <DensityNoiseFrequency x="10" y="10" z="10"/>
+     <Size x="20" y="20" z="10"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
