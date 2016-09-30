@@ -1,0 +1,48 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="human_bones" MtlFlags="524416" Shader="Illum" GenMask="20400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/tex_body_diff.tif"/>
+    <Texture Map="Bumpmap" File="./textures/tex_body_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="524416" Shader="Humanskin" GenMask="100400000" StringGenMask="%NORMAL_MAP%TEMP_SKIN" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.033104774,0.033104774,0.033104774" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/tex_head_diff.tif"/>
+    <Texture Map="Bumpmap" File="./textures/tex_head_ddna.tif"/>
+    <Texture Map="Opacity" File="./textures/tex_head_sss.tif"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="0.366"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="524416" Shader="Eye" GenMask="2080400000" StringGenMask="%NORMAL_MAP%TEMP_EYES%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.064803272,0.064803272,0.064803272" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/eye_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/sdk_player_35/textures/eye_ddn.tif"/>
+   </Textures>
+   <PublicParams CorneaRefraction="0" IrisDepth="0.0085000005" IrisColor="1,1,1" IrisShadowing="5" CorneaSmoothness="0" ScleraSSS="0.40000001" IrisSSS="0.60000002"/>
+  </Material>
+  <Material Name="SubMtl4" MtlFlags="524416" Shader="Illum" GenMask="20400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.033104774,0.033104774,0.033104774" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/tex_bodeatt_diff.tif"/>
+    <Texture Map="Bumpmap" File="./textures/tex_bodeatt_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="SubMtl5" MtlFlags="524416" Shader="Illum" GenMask="20000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" AlphaTest="0.5" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/pen_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="SubMtl6" MtlFlags="524418" Shader="Illum" GenMask="30400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/tex_bagpack_diff.tif"/>
+    <Texture Map="Bumpmap" File="./textures/tex_bagpack_ddna.tif"/>
+    <Texture Map="Specular" File="./textures/tex_bagpack_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>
