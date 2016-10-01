@@ -1,7 +1,7 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="20400800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.23455061,0.23455061,0.23455061" Specular="0.035601322,0.035601322,0.035601322" Opacity="1" Shininess="86" CloakAmount="0" vertModifType="0" LayerAct="1">
+<Material MtlFlags="524288" Shader="Illum" GenMask="20400800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.83077002,0.83077002,0.83077002" Specular="0.035601322,0.035601322,0.035601322" Opacity="1" Shininess="86" CloakAmount="0" vertModifType="0" LayerAct="1">
  <Textures>
-  <Texture Map="Diffuse" File="Textures/decals_ttn/dirt_direct_diff.tif"/>
-  <Texture Map="Bumpmap" File="Textures/decals_ttn/dirt_direct_ddna.tif"/>
+  <Texture Map="Diffuse" File="Textures/decals_ttn/crack_ttn/crack_02_diff.tif"/>
+  <Texture Map="Bumpmap" File="Textures/decals_ttn/crack_ttn/crack_02_ddna.dds"/>
  </Textures>
- <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.99000001" DecalFalloff="5" DecalAlphaMult="1.11"/>
+ <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.99000001" DecalFalloff="1.3" DecalAlphaMult="1.11"/>
 </Material>

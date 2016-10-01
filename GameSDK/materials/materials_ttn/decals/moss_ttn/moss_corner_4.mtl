@@ -1,4 +1,4 @@
-<Material MtlFlags="524288" Shader="Illum" GenMask="20400800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.57758057,0.57758057,0.57758057" Specular="0.035601322,0.035601322,0.035601322" Opacity="1" Shininess="86" CloakAmount="0" vertModifType="0" LayerAct="1">
+<Material MtlFlags="524288" Shader="Illum" GenMask="20400800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.85499275,0.43415368,0.14126332" Specular="0.035601322,0.035601322,0.035601322" Opacity="1" Shininess="86" CloakAmount="0" vertModifType="0" LayerAct="1">
  <Textures>
   <Texture Map="Diffuse" File="Textures/decals_ttn/moss_ttn/moss_corner_02_diff.tif"/>
   <Texture Map="Bumpmap" File="Textures/decals_ttn/moss_ttn/moss_corner_02_ddna.tif"/>
